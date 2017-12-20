@@ -42,7 +42,7 @@ que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro.java](https
 ## Tipos de variáveis
 
 ### Inteiro
-Esse tipo de variável armazena valores do tipo inteiro igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
+Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente, e ainda tem uma novidade, o módulo( resto da divisão ). como vou mostrar a seguir:
 
 **Adição**
 
@@ -115,6 +115,39 @@ c = a % b;
 ```
 
 ### Double( Real )
+
+Esse tipo de variável armazena valores do tipo **real** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
+
+As operações com os número do tipo double são iguais às do tipo inteiro, com a exceção da operação de módulo que não existe com esse tipo de dado.<br />
+Também existe uma diferença na divisão, pois como esse tipo de dado pode guardar valores decimais( depois da vírgula ) a variável **r4** receberá
+o valor **3.34394904459**.
+
+```
+double a,b;
+double r1,r2,r3,r4; // essas sao as variaveis que vai guardar os resultados dad operacoes
+
+a = 10.5;
+b = 3.14;
+
+// adicao
+r1 = a + b;
+// subtracao
+r2 = a - b;
+// multiplicacao
+r3 = a * b;
+// divisao
+r4 = a / b;
+
+/*
+
+Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+
+r1: 13.64
+r2: 7.36
+r3: 32.97
+r4: 3.34394904459
+*/
+```
 
 ### Char( Caractere )
 
