@@ -1,4 +1,4 @@
-## Variáveis
+# Variáveis
 
 ### O que é uma variável?
 
@@ -39,12 +39,12 @@ Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 Caso você deseja executar os códigos mostrados aqui você pode abrir os arquivos destinados a cada tipo de dado
 que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Inteiro.java), etc.
 
-## Tipos de variáveis
+# Tipos de variáveis
 
-### Inteiro
+## Inteiro
 Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente, e ainda tem uma novidade, o módulo( resto da divisão ). como vou mostrar a seguir:
 
-**Adição**
+### Adição
 
 ```
 // declarar variaveis
@@ -57,7 +57,7 @@ b = 7;
 c = a + b;
 ```
 
-**Subtração**
+### Subtração
 ```
 // declarar variaveis
 int a,b,c;
@@ -69,7 +69,7 @@ b = 7;
 c = a - b;
 ```
 
-**Multiplicação**
+### Multiplicação
 ```
 // declarar variaveis
 int a,b,c;
@@ -81,7 +81,7 @@ b = 7;
 c = a * b;
 ```
 
-**Divisão**
+### Divisão
 
 Para a divisão existe um pequeno detalhe, se você fazer a divisão de 2 valores e armazená-la em uma variável do tipo inteiro
 o resultado vai ser o valor sem a parte decimal, como no exemplo abaixo:<br />
@@ -98,7 +98,7 @@ b = 7;
 c = a / b;
 ```
 
-**Módulo( Resto da divisão )**
+### Módulo( Resto da divisão )
 
 Também existe uma operação que chamamos de módulo, ela serve para pegar o valor do resto de uma divisão inteira. OBS: essa operação só funciona para números inteiros.<br />
 Como no exemplo de 5/7, a divisão inteira dá como resultado 0( como visto acima ), e o **resto** da divisão é **5**, então o valor de **c** será **5**.
@@ -114,7 +114,7 @@ b = 7;
 c = a % b;
 ```
 
-### Double( Real )
+## Double( Real )
 
 Esse tipo de variável armazena valores do tipo **real** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
 
@@ -149,8 +149,8 @@ r4: 3.34394904459
 */
 ```
 
-### Char( Caractere )
+## Char( Caractere )
 
-### String
+## String
 
-### Boolean
+## Boolean
