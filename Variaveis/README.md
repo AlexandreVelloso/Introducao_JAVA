@@ -34,10 +34,85 @@ Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 * O nome de uma variável não pode ter espaço, como **int minha variavel;**
 * O nome de uma variável não pode ter caracteres especiais, como ( à,á,ã,â,ç,!,@,#,$,%,&,/,* )
 
+### Executar os códigos
+
+Caso você deseja executar os códigos mostrados aqui você pode abrir os arquivos destinados a cada tipo de dado
+que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Inteiro.java), etc.
+
+## Tipos de variáveis
+
 ### Inteiro
-Esse tipo de variável armazena valores do tipo inteiro igual na matemática.
+Esse tipo de variável armazena valores do tipo inteiro igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
 
+**Adição**
 
+```
+// declarar variaveis
+int a,b,c;
+// dar um valor para a
+a = 5;
+// dar um valor para b
+b = 7;
+// somar o valor de a com b e guardar em c
+c = a + b;
+```
+
+**Subtração**
+```
+// declarar variaveis
+int a,b,c;
+// dar um valor para a
+a = 5;
+// dar um valor para b
+b = 7;
+// subtrair o valor de a com b e guardar em c
+c = a - b;
+```
+
+**Multiplicação**
+```
+// declarar variaveis
+int a,b,c;
+// dar um valor para a
+a = 5;
+// dar um valor para b
+b = 7;
+// multiplicar o valor de a com b e guardar em c
+c = a * b;
+```
+
+**Divisão**
+
+Para a divisão existe um pequeno detalhe, se você fazer a divisão de 2 valores e armazená-la em uma variável do tipo inteiro
+o resultado vai ser o valor sem a parte decimal, como no exemplo abaixo:<br />
+5/7 é igual a **0.71428571428**, e como a variável **c** é do tipo inteiro, o valor salvo nela será **0**.
+
+```
+// declarar variaveis
+int a,b,c;
+// dar um valor para a
+a = 5;
+// dar um valor para b
+b = 7;
+// dividir o valor de a com b e guardar em c
+c = a / b;
+```
+
+**Módulo( Resto da divisão )**
+
+Também existe uma operação que chamamos de módulo, ela serve para pegar o valor do resto de uma divisão inteira. OBS: essa operação só funciona para números inteiros.<br />
+Como no exemplo de 5/7, a divisão inteira dá como resultado 0( como visto acima ), e o **resto** da divisão é **5**, então o valor de **c** será **5**.
+
+```
+// declarar variaveis
+int a,b,c;
+// dar um valor para a
+a = 5;
+// dar um valor para b
+b = 7;
+// resto da divisão de a por b
+c = a % b;
+```
 
 ### Double( Real )
 
