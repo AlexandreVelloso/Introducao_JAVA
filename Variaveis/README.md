@@ -15,12 +15,15 @@ String frase;
 ```
 
 ```
-OBS: é possível se adicionar comentários no programa, esses comentários são linhas que não serão lidas pelo programa, ela apenas servem para facilitar a leitura do programa depois por pessoas, como você mesmo ou outros que irão ler o seu código. Existem 2 tipos de comentários:
+OBS: é possível se adicionar comentários no programa, esses comentários são linhas que não serão lidas
+pelo programa, ela apenas servem para facilitar a leitura do programa depois por pessoas, como você mesmo
+ou outros que irão ler o seu código. Existem 2 tipos de comentários:
 
-* Comentário por linha: // , onde tudo que vier depois de // e estiver na mesma linha que ela será um comentário
+* Comentário por linha: // , onde tudo que vier depois de // e estiver na mesma linha será um comentário
 * Comentário por bloco: /* */, esse comentário faz a mesma coisa que o anterior, mas a diferença é que ele pode ser feito em mais de uma linha, tudo que estiver entre /* e */ estará dentro do comentário.
 
-OBS2: Eu não costumo colocar acentos e caracteres especiais( à,á,ã,â,ç ) em comentários, mas eles podem ser colocados sem problemas.
+OBS2: Eu não costumo colocar acentos e caracteres especiais( à,á,ã,â,ç ) em comentários,
+mas eles podem ser colocados sem problemas.
 ```
 
 ### Restrições de nomes de variáveis
