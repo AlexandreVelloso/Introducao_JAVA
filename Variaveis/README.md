@@ -93,7 +93,7 @@ As operações com os número do tipo double são iguais às do tipo inteiro, co
 
 ```
 double a,b;
-double r1,r2,r3,r4; // essas sao as variaveis que vai guardar os resultados dad operacoes
+double r1,r2,r3,r4; // essas sao as variaveis que vai guardar os resultados das operacoes
 
 a = 10.5;
 b = 3.14;
@@ -124,6 +124,22 @@ o valor **3.34394904459**.
 
 ## Char( Caractere )
 
+Esse tipo de variável armazena valores dentro da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf), não se preocupe sobre ela,
+mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere, como letra, número, caracteres especiais, etc.<br />
+Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [conversão de tipo](), pois eles são caracteres.
+
+```
+// Declarar variaveis
+char c1,c2,c3;
+
+// Dar valor as variaveis, note que o valor de um char deve estar entre aspas simples: ''
+c1 = 'a';
+c2 = '0';
+c3 = '$';
+```
+
 ## String
+
+
 
 ## Boolean
