@@ -1,6 +1,6 @@
 # Primeiro programa em java
 
-## O que significa esse tudo isso?
+## O que significa tudo isso?
 Os programas em JAVA devem ter no mínimo esses comandos:
 
 ### classe
@@ -15,7 +15,7 @@ Tudo que está entre **{** e **}** está dentro da classe.
 
 ### main
 
-Esse método( adicionar link para o que é método ) é a primeira coisa a ser feita no programa, ou seja, quando o programa inicia as linhas de código lá dentro serão executadas.
+Esse método( adicionar link para o que é método ) é a primeira coisa a ser feita no programa, ou seja, quando o programa inicia essas linhas de código dentro do main serão executadas. Elas são executadas de cima para baixo e cada linha por vez.
 
 Exemplo: como mostrar o seu nome no terminal, substitua **Coloque seu nome aqui** pelo seu nome.
 
@@ -24,12 +24,22 @@ Como executar esse programa:
 * Compile ![Compile](http://url/to/img.png)
 * Execute ![Execute](http://url/to/img.png)
 
+Se você está usando o pacote IO
 ```
 import IO.*;
 
 public class Primeiro{
   public static void main( String [] args ){
-    IO.println("Coloque seu nome aqui ");
+    IO.println("Coloque seu nome aqui");
+  }
+}
+```
+
+Se você está usando JAVA puro, ou seja sem o pacote IO
+```
+public class Primeiro{
+  public static void main( String [] args ){
+    System.out.println("Coloque seu nome aqui");
   }
 }
 ```
@@ -42,7 +52,7 @@ Na 1 linha de codigo eu adiciono esse pacote ao programa, ele serve para facilit
 import IO.*;
 ```
 
-Para mostrar algo na tela é simples, basta adicionar essa linha de código
+Para mostrar algo na tela é simples, basta adicionar essa linha de código dentro do método main
 
 ```
 IO.println("Mensagem");
