@@ -1,4 +1,4 @@
-# Primeiro programa em java
+# Meu primeiro programa em java
 
 ## O que significa tudo isso?
 Os programas em JAVA devem ter no mínimo esses comandos:
@@ -24,7 +24,7 @@ Como executar esse programa:
 * Compile ![Compile](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/Compile.png)
 * Execute ![Execute](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/Execute.png)
 
-Se você está usando o pacote IO
+Se você está usando o pacote IO:
 ```
 import IO.*;
 
@@ -35,7 +35,7 @@ public class Primeiro{
 }
 ```
 
-Se você está usando JAVA puro, ou seja sem o pacote IO
+Se você está usando JAVA puro, ou seja sem o pacote IO:
 ```
 public class Primeiro{
   public static void main( String [] args ){
@@ -46,16 +46,10 @@ public class Primeiro{
 
 ### O que é o pacote IO?
 
-Na 1 linha de codigo eu adiciono esse pacote ao programa, ele serve para facilitar a vida dos alunos quando quiserem mostrar algo na tela, ou ler uma informação do teclado
+O pacote IO é um pacote feito pelo professor [Theldo Cruz Franqueira](http://lattes.cnpq.br/3356241223151750) que ajuda o aluno a mostrar mensagens na tela e pedir dados do teclado, mas como nem todos professores têm esse pacote eu vou ensinar dos 2 jeitos.
+
+Na 1 linha de codigo eu adiciono esse pacote ao programa, e assim posso usar livrimente esse pacote.
 
 ```
 import IO.*;
 ```
-
-Para mostrar algo na tela é simples, basta adicionar essa linha de código dentro do método main
-
-```
-IO.println("Mensagem");
-```
-
-Isso irá mostrar **Mensagem** na tela( sem o negrito ), tudo que estiver dentro das *""* será mostrado no terminal.
