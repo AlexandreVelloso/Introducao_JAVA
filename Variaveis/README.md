@@ -180,3 +180,86 @@ Na String o valor pode ser vazio.
 ```
 
 ## Boolean
+Esse tipo de dado armazena somente valores do tipo lógico, **true** ou **false**. Esse tipo de dado não faz as operações aritiméticas, e sim as lógicas, valores do tipo verdadeiro ou falso.
+
+```
+// Declarar variaveis
+boolean var1, var2;
+boolean r1, r2, r3, r4;
+
+var1 = true;
+var2 = false;
+
+// And( e )
+r1 = var1 && var2;
+
+// Or( ou )
+r2 = var1 || var2;
+
+// Not( nao )
+r3 = !var1;
+r4 = !var2;
+
+/*
+Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+
+r1: false
+r2: true
+r3: false
+r4: true
+*/
+```
+
+### And( && )
+Para o valor dessa operação ser verdadeiro, os 2 casos devem ser verdade, como no exemplo: <br />
+Me traga uma caneta e um papel para eu escrever uma carta.
+
+* Se a pessoa me trazer nenhum dos dois **não é possível** escrever a carta.
+* Se a pessoa me trazer somente a caneta **não é possível** escrever a carta.
+* Se a pessoa me trazer somente o papel **não é possível** escrever a carta.
+* Se a pessoa me trazer os dois **é possível** escrever a carta.
+
+Então para essa operação dar certo, todas as condições devem ser verdadeiras.
+
+```
+Todas as possíveis combinações da operação And( && )
+
+var1   | var2   | result
+----------------------
+false  | false  | false
+false  | true   | false
+true   | false  | false
+true   | true   | true
+```
+
+### Or( || )
+Para o valor dessa operação ser verdadeiro, só preciso de que 1 caso seja verdade, como no exemplo: <br />
+Me traga um lápis ou uma caneta para eu escrever uma carta.
+
+* Se a pessoa me trazer nenhum dos dois **não é possível** escrever a carta.
+* Se a pessoa me trazer somente o lápis **é possível** escrever a carta.
+* Se a pessoa me trazer somente a caneta **é possível** escrever a carta.
+* Se a pessoa me trazer os dois **é possível** escrever a carta.
+
+```
+Todas as possíveis combinações da operação Or( || )
+
+var1   | var2   | result
+----------------------
+false  | false  | false
+false  | true   | true
+true   | false  | true
+true   | true   | true
+```
+
+### Not( ! )
+Essa operação nega o valor, ou seja, se ele for **true** ele vira **false**, e o contrário também acontece.
+
+```
+Todas as possíveis combinações da operação Not( ! )
+
+var1   | result
+---------------
+false  | true
+true   | false
+```
