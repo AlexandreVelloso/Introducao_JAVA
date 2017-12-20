@@ -37,6 +37,8 @@ Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 ### Inteiro
 Esse tipo de variável armazena valores do tipo inteiro igual na matemática.
 
+
+
 ### Double( Real )
 
 ### Char( Caractere )
