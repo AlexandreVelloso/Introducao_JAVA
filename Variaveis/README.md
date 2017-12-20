@@ -75,18 +75,15 @@ r5: 1
 ```
 
 ### Divisão
-
 Para a divisão existe um pequeno detalhe, se você fazer a divisão de 2 valores e armazená-la em uma variável do tipo inteiro
 o resultado vai ser o valor sem a parte decimal, como no exemplo abaixo:<br />
 10/3 é igual a **3.33333333333**, e como a variável **r4** é do tipo inteiro, o valor salvo nela será **3**.
 
 ### Módulo( Resto da divisão )
-
 Também existe uma operação que chamamos de módulo, ela serve para pegar o valor do resto de uma divisão inteira. OBS: essa operação só funciona para números inteiros.<br />
 Como no exemplo de 10/3, a divisão inteira dá como resultado 3( como visto acima ), e o **resto** da divisão é **1**, então o valor de **c** será **1**.
 
 ## Double( Real )
-
 Esse tipo de variável armazena valores do tipo **real** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
 
 As operações com os número do tipo double são iguais às do tipo inteiro, com a exceção da operação de módulo que não existe com esse tipo de dado.<br />
@@ -123,7 +120,6 @@ Também existe uma diferença na divisão, pois como esse tipo de dado pode guar
 o valor **3.34394904459**.
 
 ## Char( Caractere )
-
 Esse tipo de variável armazena valores dentro da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf), não se preocupe sobre ela,
 mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere, como letra, número, caracteres especiais, etc.<br />
 Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [conversão de tipo](), pois eles são caracteres.
@@ -138,8 +134,49 @@ c2 = '0';
 c3 = '$';
 ```
 
+```
+Note que o valor de um char deve estar entre aspas simples: ''. Deve conter apenas um caractere,
+e não pode ser vazio: ''.
+
+OBS: '' é diferente de ' ', pois no segundo caso é um caractere espaço
+```
+
 ## String
+Esse tipo de variável armazena valores literais, ou seja uma sequência de caracteres, como nomes, texto, texto com números, e todos esses tipos de combinações. Com esse tipo existe uma operação básica, a concatenação.
 
+```
+String str1, str2, str3;
+int idade;
+String mensagem;
 
+// valor de str1
+str1 = "Ola meu nome e' ";
+// valor de str2
+str2 = "Alexandre";
+// valor de str3
+str3 = " e a minha idade e' "
+// valor de idade
+idade = 21;
+
+mensagem = str1 + str2 + str3 + idade;
+
+/*
+Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+
+mensagem = Ola meu nome e' Alexandre e a minha idade e' 21
+*/
+```
+
+### Concatenação
+Esse tipo de operação junta 2 ou mais Strings para formar outra. Como no exemplo anterior eu juntei 3 **Strings** e um **int**, no final dessa operação o valor final será uma **String**.
+
+```
+Posso concatenar String com qualquer tipo de dado, e o valor final será uma String.
+```
+
+```
+Note que o valor da String, diferente do char deve ser dado entre aspas duplas: "".
+Na String o valor pode ser vazio.
+```
 
 ## Boolean
