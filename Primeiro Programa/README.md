@@ -21,8 +21,8 @@ Exemplo: como mostrar o seu nome no terminal, substitua **Coloque seu nome aqui*
 
 Como executar esse programa:
 * Copie ele para um arquivo Primeiro.java dentro do JGrasp
-* Compile ![Compile](http://url/to/img.png)
-* Execute ![Execute](http://url/to/img.png)
+* Compile ![Compile](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/Compile.png)
+* Execute ![Execute](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/Execute.png)
 
 Se você está usando o pacote IO
 ```
