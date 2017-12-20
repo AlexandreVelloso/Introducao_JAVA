@@ -91,10 +91,6 @@ Esse tipo de variável armazena valores do tipo **real** igual na matemática. A
 
 As operações com os número do tipo double são iguais às do tipo inteiro, com a exceção da operação de módulo que não existe com esse tipo de dado.<br />
 
-### Divisão
-Também existe uma diferença na divisão, pois como esse tipo de dado pode guardar valores decimais( depois da vírgula ) a variável **r4** receberá
-o valor **3.34394904459**.
-
 ```
 double a,b;
 double r1,r2,r3,r4; // essas sao as variaveis que vai guardar os resultados dad operacoes
@@ -121,6 +117,10 @@ r3: 32.97
 r4: 3.34394904459
 */
 ```
+
+### Divisão
+Também existe uma diferença na divisão, pois como esse tipo de dado pode guardar valores decimais( depois da vírgula ) a variável **r4** receberá
+o valor **3.34394904459**.
 
 ## Char( Caractere )
 
