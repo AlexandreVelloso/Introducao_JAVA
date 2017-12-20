@@ -44,81 +44,54 @@ que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro.java](https
 ## Inteiro
 Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente, e ainda tem uma novidade, o módulo( resto da divisão ). como vou mostrar a seguir:
 
-### Adição
+```
+int a,b;
+int r1,r2,r3,r4,r5; // essas sao as variaveis que vai guardar os resultados das operacoes
 
-```
-// declarar variaveis
-int a,b,c;
-// dar um valor para a
-a = 5;
-// dar um valor para b
-b = 7;
-// somar o valor de a com b e guardar em c
-c = a + b;
-```
+a = 10; // aqui eu estou colocando o valor 10 na variavel a
+b = 3;
 
-### Subtração
-```
-// declarar variaveis
-int a,b,c;
-// dar um valor para a
-a = 5;
-// dar um valor para b
-b = 7;
-// subtrair o valor de a com b e guardar em c
-c = a - b;
-```
+// adicao
+r1 = a + b;
+// subtracao
+r2 = a - b;
+// multiplicacao
+r3 = a * b;
+// divisao
+r4 = a / b;
+// modulo
+r5 = a % b;
 
-### Multiplicação
-```
-// declarar variaveis
-int a,b,c;
-// dar um valor para a
-a = 5;
-// dar um valor para b
-b = 7;
-// multiplicar o valor de a com b e guardar em c
-c = a * b;
+/*
+
+Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+
+r1: 13
+r2: 7
+r3: 30
+r4: 3
+r5: 1
+*/
 ```
 
 ### Divisão
 
 Para a divisão existe um pequeno detalhe, se você fazer a divisão de 2 valores e armazená-la em uma variável do tipo inteiro
 o resultado vai ser o valor sem a parte decimal, como no exemplo abaixo:<br />
-5/7 é igual a **0.71428571428**, e como a variável **c** é do tipo inteiro, o valor salvo nela será **0**.
-
-```
-// declarar variaveis
-int a,b,c;
-// dar um valor para a
-a = 5;
-// dar um valor para b
-b = 7;
-// dividir o valor de a com b e guardar em c
-c = a / b;
-```
+10/3 é igual a **3.33333333333**, e como a variável **r4** é do tipo inteiro, o valor salvo nela será **3**.
 
 ### Módulo( Resto da divisão )
 
 Também existe uma operação que chamamos de módulo, ela serve para pegar o valor do resto de uma divisão inteira. OBS: essa operação só funciona para números inteiros.<br />
-Como no exemplo de 5/7, a divisão inteira dá como resultado 0( como visto acima ), e o **resto** da divisão é **5**, então o valor de **c** será **5**.
-
-```
-// declarar variaveis
-int a,b,c;
-// dar um valor para a
-a = 5;
-// dar um valor para b
-b = 7;
-// resto da divisão de a por b
-c = a % b;
-```
+Como no exemplo de 10/3, a divisão inteira dá como resultado 3( como visto acima ), e o **resto** da divisão é **1**, então o valor de **c** será **1**.
 
 ## Double( Real )
 
 Esse tipo de variável armazena valores do tipo **real** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente. como vou mostrar a seguir:
 
 As operações com os número do tipo double são iguais às do tipo inteiro, com a exceção da operação de módulo que não existe com esse tipo de dado.<br />
+
+### Divisão
 Também existe uma diferença na divisão, pois como esse tipo de dado pode guardar valores decimais( depois da vírgula ) a variável **r4** receberá
 o valor **3.34394904459**.
 
