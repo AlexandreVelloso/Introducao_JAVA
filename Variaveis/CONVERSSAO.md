@@ -8,7 +8,7 @@ OBS: com o java puro podem ocorrer erros se você tentar converter uma letra par
 e com java puro pode se tratar isso, mas essa parte vai ser assunto para outra unidade.
 ```
 
-Se você quiser ver a unidade de tratamento de erros [clique aqui](CONVERSSAO.md)
+Se você quiser ver a unidade de tratamento de erros [clique aqui*](CONVERSSAO.md)
 
 ## Usando pacote IO
 Usando o pacote IO as converssões de String para os outros tipos ficam mais simplificadas, e já estão com o tratamento de erro implementadas, a diferença do pacote IO para o java puro é somente esse tipo String para todos outros, o resto estará na secção de JAVA puro.
@@ -57,7 +57,7 @@ A conversão para double é muito parecida com a de int
 double pi = Double.parseDouble( "3.1415926" );
 ```
 
-A converssão para char é interessante, por que não existe o [método](*) parseChar então temos outra alternativa:
+A converssão para char é interessante, por que não existe o [método*](CONVERSSAO.md) parseChar então temos outra alternativa:
 
 ```
 // como um char e' somente 1 caractere, eu posso usar esse jeito usando o metodo charAt(),

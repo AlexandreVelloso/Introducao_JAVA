@@ -37,7 +37,7 @@ Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 ### Executar os códigos
 
 Caso você deseja executar os códigos mostrados aqui você pode abrir os arquivos destinados a cada tipo de dado
-que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Inteiro.java), etc.
+que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro_Exemplo.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Inteiro.java), etc.
 
 # Tipos de variáveis
 
