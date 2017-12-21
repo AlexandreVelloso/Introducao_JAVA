@@ -46,7 +46,7 @@ Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática
 
 ```
 int a,b;
-int r1,r2,r3,r4,r5; // essas sao as variaveis que vai guardar os resultados das operacoes
+int r1,r2,r3,r4,r5; // essas sao as variaveis que vao guardar os resultados das operacoes
 
 a = 10; // aqui eu estou colocando o valor 10 na variavel a
 b = 3;
@@ -63,7 +63,6 @@ r4 = a / b;
 r5 = a % b;
 
 /*
-
 Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
 
 r1: 13
@@ -90,7 +89,7 @@ As operações com os número do tipo double são iguais às do tipo inteiro, co
 
 ```
 double a,b;
-double r1,r2,r3,r4; // essas sao as variaveis que vai guardar os resultados das operacoes
+double r1,r2,r3,r4; // essas sao as variaveis que vao guardar os resultados das operacoes
 
 a = 10.5;
 b = 3.14;
@@ -105,7 +104,6 @@ r3 = a * b;
 r4 = a / b;
 
 /*
-
 Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
 
 r1: 13.64
@@ -154,7 +152,7 @@ str1 = "Ola meu nome e' ";
 // valor de str2
 str2 = "Alexandre";
 // valor de str3
-str3 = " e a minha idade e' "
+str3 = " e a minha idade e' ";
 // valor de idade
 idade = 21;
 
