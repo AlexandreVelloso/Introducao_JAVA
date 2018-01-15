@@ -120,7 +120,7 @@ o valor **3.34394904459**.
 ## Char( Caractere )
 Esse tipo de variável armazena valores dentro da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf), não se preocupe sobre ela,
 mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere, como letra, número, caracteres especiais, etc.<br />
-Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [converssão de tipo](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/CONVERSSAO.md), pois eles são caracteres.
+Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [converssão de tipo](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao), pois eles são caracteres.
 
 ```
 // Declarar variaveis
