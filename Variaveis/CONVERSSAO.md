@@ -105,10 +105,58 @@ resultado: "7"
 ```
 
 ### int para double
+Como o inteiro é um número sem casas decimais, podemos fazer a converssão dele para double facilmente, como mostrado abaixo:
+```
+int num = 15;
+double novo_num;
 
+// converssao
+novo_num = (double) num;
+
+/*
+novo_num: 15.0
+*/
+```
 
 ### double para int
+Essa converssão chamamos de *truncar* o número, ela somente tira as casas decimais do número. Também podemos falar que essa converssão arredonda o número para baixo.
+```
+double pi = 3.1415;
+int novo_num;
+
+// converssao
+novo_num = (int) pi;
+
+/*
+novo_num: 3
+*/
+```
 
 ### int para char
+Como já mostrado no tutorial sobre [variáveis] (https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis) eu disse sobre o tipo **char** armazenar valores da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf). Então quando eu converto uma variável **int** para um **char** ele vira uma letra. Mas cuidado, se você tentar converter um número que não esteja dentro do intervalo **[0,255]** o valor armazenado será um valor inválido, o seu programa não vai parar de funcionar por causa dessa falha.
+
+```
+int num1 = 97;
+int num2 = 65;
+
+char letra_a = (char) num1;
+char letra_A = (char) num2;
+
+/*
+letra_a: 'a'
+letra_A: 'A'
+*/
+```
 
 ## char para int
+Converter de char para int é bem parecido com o acima, sabendo que o **char** só guarda valores entre 0 e 255.
+
+```
+char letra = '&';
+
+int num = (int) letra;
+
+/*
+num: 26
+*/
+```
