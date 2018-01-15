@@ -9,6 +9,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Meu primeiro programa em JAVA](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Primeiro%20Programa)
 * [Variáveis](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis)
 * [Converssão de tipo ou *Type casting*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao)
+* [Laços de repetição ou *Loops*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop)
 
 ## Autor
 
