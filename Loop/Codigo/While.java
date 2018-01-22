@@ -1,3 +1,5 @@
+//import IO.*;
+
 public class While{
 
     public static void main( String [] args ){
@@ -7,7 +9,12 @@ public class While{
 
         while( num <= numRepeticoes ){
             System.out.println( num );
+            // IO.println( num )
             num = num + 1;
         }
     }
 }
+
+/*
+OBS: se voce esta usando o pacote IO descomente as partes dele no programa
+*/
