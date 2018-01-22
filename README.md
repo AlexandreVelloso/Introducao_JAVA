@@ -8,6 +8,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * O que é um programa em java?
 * [Meu primeiro programa em JAVA](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Primeiro%20Programa)
 * [Variáveis](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis)
+* [Entrada de dados do teclado](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados)
 * [Converssão de tipo ou *Type casting*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao)
 * [Laços de repetição ou *Loops*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop)
 
