@@ -20,7 +20,7 @@ No 1 caso o programa vai ficar parado esperando o usuário digitar o valor, se o
 para fazer ele pode achar que o programa bugou.
 No 2 caso o programa mostra uma mensagem na tela, e ai o usuário vai saber que é para digitar um
 valor inteiro do teclado.
-Se o usuário digitar algo que não seja um int, como uma letra, string, ou double o valor armazenado será 0.
+Se o usuário digitar algo que não seja um int, como uma letra, string, ou double o valor armazenado será 0
 Esse padrão foi feito pelo professor Theldo.
 */
 ```
@@ -53,8 +53,23 @@ char num3 = IO.readchar( "Digite outro valor real\n");
 ```
 
 ### String
-```
 
+O interessante é que a String não tem caracteres inválidos, ela consegue aceitar qualquer valor, até o **Σ** que eu citei acima.
+
+```
+// Le uma String do teclado, mas sem espaco
+String str1 = IO.readString( "Digite uma String\n" );
+// Le uma String do teclado com espaco
+String str2 = IO.readln( "Digite outra String\n" );
+
+/*
+OBS: aqui temos uma pequena diferenca entre esses 2 metodos.
+No 1 caso se o usuario digitar uma String que tenha espaco
+como "Bom dia", somente o "Bom" será lido. ( os caracteres "" não contam nesse caso)
+
+No 2 caso a mensagem pode conter espacos, entao "Bom dia"
+seria lido como "Bom dia"
+*/
 ```
 
 ### boolean
