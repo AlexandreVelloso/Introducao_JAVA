@@ -1,19 +1,20 @@
 import IO.*;
 
-public class Inteiro{
-	
+public class Char_Exemplo{
+
 	public static void main( String [] args ){
 
 			// Somente le o numero do teclado
-			int num1 = IO.readint();
+			char num1 = IO.readchar();
 			// informa a mensagem e o usuario coloca o numero na mesma linha
-			int num2 = IO.readint( "Digite um valor inteiro: " );
+			char num2 = IO.readchar( "Digite um valor real: " );
 			// informa a mensagem e o usuario coloca o numero na linha de baixo
-			int num3 = IO.readint( "Digite outro valor inteiro\n");
+			char num3 = IO.readchar( "Digite outro valor real\n");
 
 			IO.println("Valor lido para o numero1 = "+num1 );
 			IO.println("Valor lido para o numero2 = "+num2 );
 			IO.println("Valor lido para o numero3 = "+num3 );
+			IO.println("Valor lido para o numero3 = "+(int)num3 );
 	}
 }
 
