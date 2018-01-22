@@ -45,11 +45,11 @@ Se você digitar qualquer coisa maior que um caractere, como o seu nome o pacote
 
 ```
 // Somente le o numero do teclado
-char num1 = IO.readchar();
+char char1 = IO.readchar();
 // informa a mensagem e o usuario coloca o numero na mesma linha
-char num2 = IO.readchar( "Digite um valor real: " );
+char char2 = IO.readchar( "Digite um char: " );
 // informa a mensagem e o usuario coloca o numero na linha de baixo
-char num3 = IO.readchar( "Digite outro valor real\n");
+char char3 = IO.readchar( "Digite outro char\n");
 ```
 
 ### String
@@ -73,8 +73,23 @@ seria lido como "Bom dia"
 ```
 
 ### boolean
-```
+
+O boolean é o tipo em que o usuário deve digitar exatamente *true* ou *false*, não importa se estão em letras maiúsculas ou minúsculas.<br />
+Se o usuário digitar qualquer coisa que não seja isso o valor será *false*.
 
 ```
+// lê um valor booleano
+boolean bool1 = IO.readboolean( "Digite um valor booelean true/false\n" );
+
+/*
+OBS: para ser um valor válido o usuário deve escrever true ou false,
+não importa se é maiusculo ou minusculo.
+*/
+```
+
+### Observação
+
 
 ## Usando JAVA puro
+
+### Observação
