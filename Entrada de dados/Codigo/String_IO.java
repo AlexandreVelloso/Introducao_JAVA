@@ -1,6 +1,6 @@
 import IO.*;
 
-public class String_Exemplo{
+public class String_IO{
 
 	public static void main( String [] args ){
 

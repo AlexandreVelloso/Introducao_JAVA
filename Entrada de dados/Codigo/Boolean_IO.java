@@ -1,13 +1,13 @@
 import IO.*;
 
-public class Boolean_Exemplo{
+public class Boolean_IO{
 
 	public static void main( String [] args ){
 
-			// lê um valor booleano
+			// le um valor booleano
 			boolean bool1 = IO.readboolean( "Digite um valor booelean true/false\n" );
 
-			IO.println("Valor lido para o numero1 = "+bool1 );
+			IO.println("Valor lido para o boolean = "+bool1 );
 	}
 }
 /*

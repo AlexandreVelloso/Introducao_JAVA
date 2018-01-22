@@ -1,6 +1,6 @@
 import IO.*;
 
-public class Double_Exemplo{
+public class Double_IO{
 
 	public static void main( String [] args ){
 

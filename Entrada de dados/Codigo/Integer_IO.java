@@ -1,6 +1,6 @@
 import IO.*;
 
-public class Integer_Exemplo{
+public class Integer_IO{
 
 	public static void main( String [] args ){
 
