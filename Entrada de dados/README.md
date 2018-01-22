@@ -87,9 +87,34 @@ não importa se é maiusculo ou minusculo.
 */
 ```
 
-### Observação
-
-
 ## Usando JAVA puro
 
+Em java puro vou utilizar a classe Scanner para ler dados do teclado
+
 ### Observação
+
+Quando se usa o Scanner se você usar a função *next* para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
+Vamos a um exemplo:
+
+```
+System.out.println("Digite um valor String com espaco");
+String str1 = sc.next();
+System.out.println("Digite outro valor String");
+String str2 = sc.next();
+System.out.println( "Valores lidos: "+str1+" "+str2);
+```
+
+Para resolver isso devemos limpar o buffer depois de ler o valor:
+
+```
+System.out.println("Digite um valor String com espaco");
+String str3 = sc.next();
+// limpa o buffer
+sc.nextLine();
+
+System.out.println("Digite outro valor String");
+String str4 = sc.next();
+// limpa o buffer
+sc.nextLine();
+System.out.println( "Valores lidos: "+str3+" "+str4);
+```
