@@ -89,11 +89,22 @@ não importa se é maiusculo ou minusculo.
 
 ## Usando JAVA puro
 
-Em java puro vou utilizar a classe Scanner para ler dados do teclado
+Em java puro vou utilizar a classe Scanner para ler dados do teclado.<br />
+Cuidado que quando o usuário digita um valor inválido em qualquer tipo de dado o programa para de executar na hora e gera uma [Exceção*](https://github.com/AlexandreVelloso/Introducao_JAVA/edit/master/Entrada%20de%20dados/README.md).
+
+### int
+
+### double
+
+### char
+
+### String
+
+### boolean
 
 ### Observação
 
-Quando se usa o Scanner se você usar a função *next* para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
+Quando se usa o Scanner se você usar a função *next*( também com as funções *nextInt*,*nextDouble*,*nextBoolean*,... ) para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
 Vamos a um exemplo:
 
 ```
