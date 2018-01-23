@@ -10,7 +10,9 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Variáveis](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis)
 * [Entrada de dados do teclado](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados)
 * [Converssão de tipo ou *Type casting*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao)
+* [Estruturas condicionais](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Estruturas%20condicionais)
 * [Laços de repetição ou *Loops*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop)
+* [Métodos e funções](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes)
 
 ## Autor
 
