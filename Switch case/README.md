@@ -1,10 +1,11 @@
 # Switch/case
 
 O *switch/case* é um tipo de estrutura parecida com as estruturas condicionais, por que você escolhe qual parte do código vai ser feita, mas eu não coloquei ele na mesma secção pois ele não faz comparação.<br />
-Esse tipo de estrutura é muito útil quando você por exemplo tem um menu com algumas opções e quando o usuário escolher uma delas ele vai para a parte de código que as executa, no exemplo a seguir o usuário irá digitar o dia da semana( 1 a 7 ), e o programa vai mostrar na tela o dia da semana correspondente.<br />
+Esse tipo de estrutura é muito útil quando você por exemplo tem um menu com algumas opções e quando o usuário escolher uma delas ele vai para a parte de código que as executa.<br/>
+No exemplo a seguir o usuário irá digitar o dia da semana( 1 a 7 ), e o programa vai mostrar na tela o dia da semana correspondente.<br />
 
 ```
-Criar um programa que leie um número e mostre o dia da semana correspondente.
+Criar um programa que leia um número e mostre o dia da semana correspondente.
 Os dias são numerados de 1 a 7, e o Domingo é o dia 1.
 ```
 
@@ -85,7 +86,7 @@ OBS: nao usei acento para evitar erros na hora de mostrar os dados
 */
 ```
 
-Aqui nesse tipo de estrutura temos a linha switch( variavel ). Essa linha diz que vamos analizar o valor da variavel **diaSemana** nesse codigo acima.<br/>
-Os *cases* são caso a variável ter aquele valor: 1,2,3,4,5,6,7. Se no caso ela ter o valor 1 o programa vai entrar no caso 1 e mostrar na tela **Segunda-feira**.<br/>
-Para mostrar que acabamos esse *case* devemos obrigatóriamente colocar o comando **break**, senão o programa vai executar os outros *cases* abaixo até achar um *break* ou até o *switch* acabar.<br/>
-O caso **default** é feito quando nenhum dos casos anteriores foi feito, ou seja, quando o usuário digitar uma data inválida como -1,10,50,....
+* **switch(variavel)**: Aqui definimos qual variável será analizada. No caso acima será a variável **diaSemana**. As variáveis dentro do switch devem ser dos tipos *int*,*char* ou *String*.
+* **case X**: o *case* é quando a variável assumir um valor qualquer então deverá executar um trecho de código. No exemplo acima mostramos o dia da semana correspondente.
+* **break**: O *break* é muito importante, pois ele mostra quando o case acabou. Se não colocarmos ele, o programa vai executar os casos abaixo dele até encontrar um *break* ou o *switch* acabar.
+* **default**: O default é o trecho que será executado quando o valor não for nenhum dos anteriores, nesse exemplo quando o usuário digitar uma data que não existe.
