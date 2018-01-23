@@ -137,7 +137,6 @@ Aqui no valor char podemos colocar qualquer coisa, mas se colocarmos uma *String
 ```
 Scanner sc = new Scanner( System.in );
 
-// Le o char do teclado
 System.out.println( "Digite um char" );
 
 // como readChar nao existe, devemos ler a linha inteira e
