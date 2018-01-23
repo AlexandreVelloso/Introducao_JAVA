@@ -6,7 +6,7 @@ Como o usuário entra com valores no nosso programa? nessa secção vamos ver co
 O pacote IO foi feito para simplificar a vida do estudante, nessa parte de pedir valores do teclado ele simplifica bastante. Lembre que antes de todos os programas que usam o pacote IO deve ter a linha **import IO.*;**
 
 ### int
-Para ler um valor *int* do teclado usamos a [função*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) *readint*
+Para ler um valor *int* do teclado usamos a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) *readint*
 ```
 // Somente ler o valor
 int num1 = IO.readint();
