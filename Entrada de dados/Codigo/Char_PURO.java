@@ -6,7 +6,6 @@ public class Char_PURO{
 
 			Scanner sc = new Scanner( System.in );
 
-			// Le o char do teclado
 			System.out.println( "Digite um char" );
 
 			// como readChar nao existe, devemos ler a linha inteira e

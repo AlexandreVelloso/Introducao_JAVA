@@ -6,7 +6,7 @@ Como o usuário entra com valores no nosso programa? nessa secção vamos ver co
 O pacote IO foi feito para simplificar a vida do estudante, nessa parte de pedir valores do teclado ele simplifica bastante. Lembre que antes de todos os programas que usam o pacote IO deve ter a linha **import IO.*;**
 
 ### int
-Para ler um valor *int* do teclado usamos a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) *readint*
+Para ler um valor *int* do teclado usamos a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) *readint*. Como o int é um número inteiro, se o usuário digitar um valor inválido como um *char*, uma *String* ou um *double* o pacote IO vai colocar o valor como **0**, isso foi escolha do professor Theldo. Todos os exemplos mostrados aqui estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados/Codigo)
 ```
 // Somente ler o valor
 int num1 = IO.readint();
@@ -20,8 +20,6 @@ No 1 caso o programa vai ficar parado esperando o usuário digitar o valor, se o
 para fazer ele pode achar que o programa bugou.
 No 2 caso o programa mostra uma mensagem na tela, e ai o usuário vai saber que é para digitar um
 valor inteiro do teclado.
-Se o usuário digitar algo que não seja um int, como uma letra, string, ou double o valor armazenado será 0
-Esse padrão foi feito pelo professor Theldo.
 */
 ```
 
@@ -74,7 +72,7 @@ seria lido como "Bom dia"
 
 ### boolean
 
-O boolean é o tipo em que o usuário deve digitar exatamente *true* ou *false*, não importa se estão em letras maiúsculas ou minúsculas.<br />
+O boolean é o tipo em que o usuário deve digitar exatamente *true* ou *false*, não importa se estão em letras maiúsculas ou minúsculas( True, TrUe, tRUE,... são válidos ).<br />
 Se o usuário digitar qualquer coisa que não seja isso o valor será *false*.
 
 ```
@@ -93,18 +91,85 @@ Em java puro vou utilizar a classe Scanner para ler dados do teclado.<br />
 Cuidado que quando o usuário digita um valor inválido em qualquer tipo de dado o programa para de executar na hora e gera uma [Exceção*](https://github.com/AlexandreVelloso/Introducao_JAVA/edit/master/Entrada%20de%20dados/README.md).
 
 ### int
+Ler valores do teclado usando JAVA é bem simples, lembre se de colocar **import java.util.Scanner** na primeira linha do programa quando se faz a leitura do teclado. Todos os exemplos mostrados aqui estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados/Codigo)
+
+```
+// como vou usar essa classe Scanner, tenho que colocar esse import aqui em cima
+import java.util.Scanner;
+
+public class Integer_PURO{
+
+    public static void main( String [] args ){
+
+        // crio um Scanner. Essa variavel sc vai fazer a leitura do teclado
+        Scanner sc = new Scanner( System.in );
+
+        // Temos que avisar ao usuario que queremos ler um valor,
+        // se nao colocarmos uma mensagem ele vai achar que o programa
+        // travou
+        System.out.println("Digite um valor inteiro");
+
+        // Somente le o numero do teclado
+        int num = sc.nextInt();
+
+        // mostra o valor lido na tela
+        System.out.println("Valor lido para o numero = "+num );
+    }
+}
+```
+
+Para fazer a leitura dos dados usamos a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) nextInt(). Como eu criei a variável *sc* do tipo *Scanner*, então tenho que usar *sc.nextInt()* para ler um inteiro do teclado.
 
 ### double
+Valores double do teclado devem ser escritos com *,* ( pelo menos no meu computador ), senão eles causam erro de execução. Podemos colocar valores inteiros e reais aqui dentro desse tipo de dado. Não podemos colocar *char* e nem *String* aqui dentro. Como no exemplo anterior eu copiei toda a classe, aqui só vou colocar a parte de leitura.
+
+```
+Scanner sc = new Scanner( System.in );
+
+System.out.println("Digite outro valor real");
+// Somente le o numero do teclado
+double num = sc.nextDouble();
+```
 
 ### char
+Aqui no valor char podemos colocar qualquer coisa, mas se colocarmos uma *String* inteira, o programa vai pegar somente o 1º caractere.
+
+```
+Scanner sc = new Scanner( System.in );
+
+// Le o char do teclado
+System.out.println( "Digite um char" );
+
+// como readChar nao existe, devemos ler a linha inteira e
+// depois pegar somente o 1 caractere com a funcao charAt(x)
+char valor = sc.nextLine().charAt(0);
+```
 
 ### String
+No *String* podemos ler qualquer entrada do teclado, independente do tamanho.
+
+```
+Scanner sc = new Scanner( System.in );
+
+System.out.println("Digite uma String");
+
+// para a String vou ler a linha inteira, entao o usuario pode digitar espaco
+String str = sc.nextLine();
+```
 
 ### boolean
+O boolean aqui deve conter apenas os valores **true** ou **false**, independente de letras maiúsculas ou minúsculas( True, TrUe, tRUE,... são válidos ), caso contrário o programa vai ter uma falha de execução.
 
-### Observação
+```Scanner sc = new Scanner( System.in );
 
-Quando se usa o Scanner se você usar a função *next*( também com as funções *nextInt*,*nextDouble*,*nextBoolean*,... ) para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
+System.out.println( "Digite um valor booelean true/false" );
+// le um valor booleano
+boolean bool = sc.nextBoolean();
+```
+
+## Observação( JAVA puro )
+
+Quando se usa o Scanner se você usar a função *next* ( também com as funções *nextInt*,*nextDouble*,*nextBoolean*,... ) para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
 Vamos a um exemplo:
 
 ```

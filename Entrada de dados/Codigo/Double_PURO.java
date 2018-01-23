@@ -6,8 +6,8 @@ public class Double_PURO{
 
 			Scanner sc = new Scanner( System.in );
 
-			// Somente le o numero do teclado
 			System.out.println("Digite outro valor real");
+			// Somente le o numero do teclado
 			double num = sc.nextDouble();
 
 			System.out.println("Valor lido para o numero = "+num );

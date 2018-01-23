@@ -6,8 +6,8 @@ public class Boolean_PURO{
 
 			Scanner sc = new Scanner( System.in );
 
-			// le um valor booleano
 			System.out.println( "Digite um valor booelean true/false" );
+			// le um valor booleano
 			boolean bool = sc.nextBoolean();
 
 			System.out.println("Valor lido para o boolean = "+bool );
