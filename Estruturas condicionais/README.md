@@ -79,4 +79,10 @@ Exemplos:
 2) if( (a == b) || ( b == c ) )
 * Testa de **a** é igual a **b** OU **b** é igual a **c**
 
-Eu coloquei as condições dentro de *()* pois eu acho que ficam mais legíveis, mas eles não são necessários.
+Eu coloquei as condições dentro de *()* pois eu acho que ficam mais legíveis, mas eles não são necessários.<br/>
+<br/>
+
+Também um comando de comparação é o **!**, ele significa **não**, ele serve para negar uma condição, como:
+
+1) if( !(a == b) )
+* essa linha significa **não a==b** ou seja, a mesma coisa que **a!=b**.
