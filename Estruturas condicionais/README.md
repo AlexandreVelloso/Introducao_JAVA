@@ -5,7 +5,7 @@ Uma estrutura condicional é a parte do código que você decide entre fazer uma
 
 Como podemos ver aqui, esse fluxograma tem 3 possíveis finais: mostrar **-1**, mostrar **a ÷ b**, ou mostrar **0**. Todos eles dependem da entrada que o usuário der para o programa.<br />
 Se você não viu a secção de entrada de dados [clique aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados).<br />
-Se transformarmos esse fluxograma para código ele ficaria assim, todos os exemplos de estruturas condicionais estão [aqui*](#):
+Se transformarmos esse fluxograma para código ele ficaria assim, todos os exemplos de estruturas condicionais estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Estruturas%20condicionais/Codigo):
 
 ```
 Observação: como o fluxograma não fala qual tipo de variável deve ser usada, irei usar o tipo double
