@@ -57,7 +57,7 @@ A conversão para double é muito parecida com a de int
 double pi = Double.parseDouble( "3.1415926" );
 ```
 
-A converssão para char é interessante, por que não existe a [função*](CONVERSSAO.md) parseChar então temos outra alternativa:
+A converssão para char é interessante, por que não existe a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) parseChar então temos outra alternativa:
 
 ```
 // como um char e' somente 1 caractere, eu posso usar esse jeito usando o metodo charAt(),
