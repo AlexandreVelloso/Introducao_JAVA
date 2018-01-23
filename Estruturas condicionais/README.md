@@ -36,11 +36,11 @@ System.out.println("Digite um valor para B");
 double b = sc.nextDouble();
 
 if( b == 0.0 ){
-    IO.println("-1");
+    System.out.println("-1");
 }else if( a/b > 0 ){
-    IO.println( a/b );
+    System.out.println( a/b );
 }else{
-    IO.println( "0" );
+    System.out.println( "0" );
 }
 ```
 
