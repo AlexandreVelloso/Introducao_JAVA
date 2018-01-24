@@ -14,6 +14,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Switch/case](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Switch%20case)
 * [Laços de repetição ou *Loops*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop)
 * [Métodos e funções](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes)
+* [Recursividade](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Recursividade)
 
 ## Autor
 
