@@ -15,6 +15,11 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Laços de repetição ou *Loops*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop)
 * [Métodos e funções](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes)
 * [Recursividade](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Recursividade)
+* [Arquivo com Pacote IO]
+* [Arquivo com java PURO]
+* [Arranjo ou *Array*]
+* [Matriz ou *Matrix*]
+* [Classes e Objetos] 
 
 ## Autor
 
