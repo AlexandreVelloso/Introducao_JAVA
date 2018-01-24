@@ -17,7 +17,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Recursividade](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Recursividade)
 * [Tratamento de exceções]
 * [Arquivo com Pacote IO]
-* [Arquivo com java PURO]
+* [Arquivo com JAVA puro]
 * [Arranjo ou *Array*]
 * [Matriz ou *Matrix*]
 * [Classes e Objetos] 
