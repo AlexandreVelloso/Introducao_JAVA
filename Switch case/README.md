@@ -24,23 +24,23 @@ switch( diaSemana ){
         break;
     case 3:
         IO.println("Terça-feira");
-            break;
-        case 4:
-            IO.println("Quarta-feira");
-            break;
-        case 5:
-            IO.println("Quinta-feira");
-            break;
-        case 6:
-            IO.println("Sexta-feira");
-            break;
-        case 7:
-            IO.println("Sabado");
-            break;
-        default:
-            IO.println("Dia invalido");
-            break;
-    }
+        break;
+    case 4:
+        IO.println("Quarta-feira");
+        break;
+    case 5:
+        IO.println("Quinta-feira");
+        break;
+    case 6:
+        IO.println("Sexta-feira");
+        break;
+    case 7:
+        IO.println("Sabado");
+        break;
+    default:
+        IO.println("Dia invalido");
+        break;
+}
 
 /*
 OBS: nao usei acento para evitar erros na hora de mostrar os dados
