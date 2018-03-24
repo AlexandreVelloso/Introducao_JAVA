@@ -63,3 +63,43 @@ public static int fatorial( int n ){
     return resultado;
 }
 ```
+
+## Fibonacci
+
+A sequência de Fibonacci já é definida de forma recursiva, ela diz que o Fibonacci de um número **n** é igual a soma do resultado dos 2 termos anteriores, a sequência é a seguinte:<br>
+<br>
+F(0) = 0<br>
+F(1) = 1<br>
+F(2) = F(0) + F(1) = 1<br>
+F(3) = F(1) + F(2) = 2<br>
+F(4) = F(2) + F(3) = 3<br>
+F(5) = F(3) + F(4) = 5<br>
+F(6) = F(4) + F(5) = 8<br>
+
+Diferente da função fatorial, a sequência de Fibonacci têm 2 casos base: F(0) e F(1). Nesses 2 casos a gente sabe o resultado da função, e os outros nós devemos calcular a partir da base.<br>
+Então o algorítimo é o seguinte:
+
+```
+se n = 0 então
+    fib(n) = 0 // caso base
+senão se n = 1
+    fib(n) = 1 // caso base
+senão
+    fib(n) = fib(n-2) + fib(n-1) // passo recursivo
+```
+
+Agora vamos a implementação. Disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade/Codigo/Fibonacci.java)
+
+```
+public static int fibonacci( int n ){
+    int resultado;
+
+    if( n == 0 ){
+        resultado = 0; // caso base
+    }else if( n == 1 ){
+        resultado = 1; // caso base
+    }else{
+        resultado = fibonacci( n-2 ) + fibonacci( n-1 ); // passo recursivo
+    }
+}
+```
