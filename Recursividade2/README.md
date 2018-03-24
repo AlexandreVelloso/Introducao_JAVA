@@ -104,3 +104,58 @@ public static int fatorial( int n ){
     return resultado;
 }
 ```
+
+Execute o código e veja se a sua saída é igual a minha:
+
+```
+Entrei, n = 3
+Entrei, n = 2
+Entrei, n = 1
+Entrei, n = 0
+Valor de n: 0 valor de resultado: 1
+Valor de n: 1 valor de resultado: 1
+Valor de n: 2 valor de resultado: 2
+Valor de n: 3 valor de resultado: 6
+O fatorial de 3 = 6
+```
+
+Note que a mensagem **Entrei, n = ...** mostrou os valores de **n** diminuindo até chegar em 0.<br>
+Isso acontece porque quando o programa faz o teste **if( n == 0 )** e dá falso, ele executa a linha<br>
+**resultado = n * fatorial( n-1 );**.<br>
+Assim ele chama novamente a função fatorial, mas passando um valor menor para n, até chegar em 0.<br>
+Quando finalmente esse valor de **n** é 0, o programa para de fazer chamadas recursivas, e assim essa execução de **n** acaba com o resultado = 1;<br>
+
+Pilha de execução no momento em que a mensagem **Entrei, n = 0** foi mostrada
+
+| Pilha de execução |
+| --- |
+| fatorial(0) |
+| fatorial(1) |
+| fatorial(2) |
+| fatorial(3) |
+| Main |
+
+```
+OBS: O valor das variáveis são independentes para cada chamada:
+
+Quando o programa recebe fatorial(3), o valor de n nessa execução é 3,
+mas quando é chamado o fatorial(2), o valor de n é totalmente independente do outro.
+Podemos ver isso quando o programa mostra as mensagens
+
+Valor de n: 0 valor de resultado: 1
+Valor de n: 1 valor de resultado: 1
+Valor de n: 2 valor de resultado: 2
+Valor de n: 3 valor de resultado: 6
+
+Vemos que o valor de n é diferente para cada mensagem.
+```
+
+Agora como vemos, a pilha está com todas as chamadas até 0.<br>
+* O programa vai fazer a linha de comando **resultado = 1**, e acabar a execução do fatorial de 0, o retirando da pilha.
+* A execução fatorial(1) continua de onde parou, ela parou quando chamou o **fatorial(n-1)**, com isso ela pode agora fazer a operação **resultado = n * fatorial(n-1)**, que resulta em 1, pois ela fez **resultado = 1 * 1**, e fatorial(1) sai da pilha.
+* O fatorial(2) faz a operação **resultado = 2 * 1**, e sai da pilha.
+* O fatorial(3) faz a operação **resultado = 3 * 2** e sai da pilha, voltando pro main.
+* O main mostra a mensagem **O fatorial de 3 = 6** e acaba o programa.
+
+Ufa, agora sim acabou de vez a recursividade, podemos ver que ela é símples de ser feita, mas computacionalmente talvez não seja a melhor alternativa, pois o computador tem que ficar trabalhando com a pilha de execução, e isso tem um certo tempo de execução.<br>
+Concluimos que as funções recursivas são impressionantes, e como é feita tanta coisa que a gente não vê.<br>
