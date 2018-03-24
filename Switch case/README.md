@@ -24,27 +24,23 @@ switch( diaSemana ){
         break;
     case 3:
         IO.println("Terça-feira");
-        break;
-    case 4:
-        IO.println("Quarta-feira");
-        break;
-    case 5:
-        IO.println("Quinta-feira");
-        break;
-    case 6:
-        IO.println("Sexta-feira");
-        break;
-    case 7:
-        IO.println("Sabado");
-        break;
-    default:
-        IO.println("Dia invalido");
-        break;
-}
-
-/*
-OBS: nao usei acento para evitar erros na hora de mostrar os dados
-*/
+            break;
+        case 4:
+            IO.println("Quarta-feira");
+            break;
+        case 5:
+            IO.println("Quinta-feira");
+            break;
+        case 6:
+            IO.println("Sexta-feira");
+            break;
+        case 7:
+            IO.println("Sabado");
+            break;
+        default:
+            IO.println("Dia invalido");
+            break;
+    }
 ```
 
 ### JAVA puro
@@ -74,7 +70,7 @@ switch( diaSemana ){
         System.out.println("Sexta-feira");
         break;
     case 7:
-        System.out.println("Sabado");
+        System.out.println("Sábado");
         break;
     default:
         System.out.println("Dia invalido");
@@ -86,7 +82,7 @@ OBS: nao usei acento para evitar erros na hora de mostrar os dados
 */
 ```
 
-* **switch(variavel)**: Aqui definimos qual variável será analizada. No caso acima será a variável **diaSemana**. As variáveis dentro do switch devem ser dos tipos *int*,*char* ou *String*.
+* **switch(variavel)**: Aqui definimos qual variável será analisada. No caso acima será a variável **diaSemana**. As variáveis dentro do switch devem ser dos tipos *int*,*char* ou *String*.
 * **case X**: o *case* é quando a variável assumir um valor qualquer então deverá executar um trecho de código. No exemplo acima mostramos o dia da semana correspondente.
 * **break**: O *break* é muito importante, pois ele mostra quando o case acabou. Se não colocarmos ele, o programa vai executar os casos abaixo dele até encontrar um *break* ou o *switch* acabar.
 * **default**: O default é o trecho que será executado quando o valor não for nenhum dos anteriores, nesse exemplo quando o usuário digitar uma data que não existe.

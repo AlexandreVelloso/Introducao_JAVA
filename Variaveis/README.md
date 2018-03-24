@@ -9,7 +9,7 @@ Antes de se usar qualquer variável é preciso declarar ela, isto é criá-la an
 
 ```
 int variavel1;
-int x,y; // aqui estou declarando mais de uma variável na mesma linha, isto e' um comentario
+int x,y; // aqui estou declarando mais de uma variável na mesma linha, isto é um comentário
 double a;
 String frase;
 ```
@@ -22,16 +22,13 @@ ou outros que irão ler o seu código. Existem 2 tipos de comentários:
 * Comentário por linha: // , onde tudo que vier depois de // e estiver na mesma linha será um comentário
 * Comentário por bloco: /* */, esse comentário faz a mesma coisa que o anterior, mas a diferença é que
 ele pode ser feito em mais de uma linha, tudo que estiver entre /* e */ estará dentro do comentário.
-
-OBS2: Eu não costumo colocar acentos e caracteres especiais( à,á,ã,â,ç ) em comentários,
-mas eles podem ser colocados sem problemas.
 ```
 
 ### Restrições de nomes de variáveis
 Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 
 * O nome de uma variável não pode começar com um número, como **double 1var;**
-* O nome de uma variável não pode ter espaço, como **int minha variavel;**
+* O nome de uma variável não pode ter espaço, como **int minha variável;**
 * O nome de uma variável não pode ter caracteres especiais, como ( à,á,ã,â,ç,!,@,#,$,%,&,/,* )
 
 ### Executar os códigos
@@ -46,24 +43,24 @@ Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática
 
 ```
 int a,b;
-int r1,r2,r3,r4,r5; // essas sao as variaveis que vao guardar os resultados das operacoes
+int r1,r2,r3,r4,r5; // essas são as variáveis que vão guardar os resultados das operações
 
-a = 10; // aqui eu estou colocando o valor 10 na variavel a
+a = 10; // aqui eu estou colocando o valor 10 na variável a
 b = 3;
 
-// adicao
+// adição
 r1 = a + b;
-// subtracao
+// subtração
 r2 = a - b;
-// multiplicacao
+// multiplicação
 r3 = a * b;
-// divisao
+// divisão
 r4 = a / b;
 // modulo
 r5 = a % b;
 
 /*
-Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+Esse é um comentário em bloco, então o programa não vai executar esse trecho
 
 r1: 13
 r2: 7
@@ -89,7 +86,7 @@ As operações com os número do tipo double são iguais às do tipo inteiro, co
 
 ```
 double a,b;
-double r1,r2,r3,r4; // essas sao as variaveis que vao guardar os resultados das operacoes
+double r1,r2,r3,r4; // essas são as variáveis que vão guardar os resultados das operações
 
 a = 10.5;
 b = 3.14;
@@ -100,11 +97,11 @@ r1 = a + b;
 r2 = a - b;
 // multiplicacao
 r3 = a * b;
-// divisao
+// divisão
 r4 = a / b;
 
 /*
-Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+Esse é um comentário em bloco, então o programa não vai executar esse trecho
 
 r1: 13.64
 r2: 7.36
@@ -123,10 +120,10 @@ mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere
 Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [converssão de tipo](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao), pois eles são caracteres.
 
 ```
-// Declarar variaveis
+// Declarar variáveis
 char c1,c2,c3;
 
-// Dar valor as variaveis, note que o valor de um char deve estar entre aspas simples: ''
+// Dar valor as variáveis, note que o valor de um char deve estar entre aspas simples: ''
 c1 = 'a';
 c2 = '0';
 c3 = '$';
@@ -148,20 +145,20 @@ int idade;
 String mensagem;
 
 // valor de str1
-str1 = "Ola meu nome e' ";
+str1 = "Ola meu nome é ";
 // valor de str2
 str2 = "Alexandre";
 // valor de str3
-str3 = " e a minha idade e' ";
+str3 = " e a minha idade é ";
 // valor de idade
 idade = 21;
 
 mensagem = str1 + str2 + str3 + idade;
 
 /*
-Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+Esse é um comentário em bloco, então o programa não vai executar esse trecho
 
-mensagem = Ola meu nome e' Alexandre e a minha idade e' 21
+mensagem = Ola meu nome é Alexandre e a minha idade é 21
 */
 ```
 
@@ -181,7 +178,7 @@ Na String o valor pode ser vazio.
 Esse tipo de dado armazena somente valores do tipo lógico, **true** ou **false**. Esse tipo de dado não faz as operações aritiméticas, e sim as lógicas, valores do tipo verdadeiro ou falso.
 
 ```
-// Declarar variaveis
+// Declarar variáveis
 boolean var1, var2;
 boolean r1, r2, r3, r4;
 
@@ -199,7 +196,7 @@ r3 = !var1;
 r4 = !var2;
 
 /*
-Esse e' um comentario em bloco, entao o programa nao vai executar esse trecho
+Esse é um comentário em bloco, então o programa não vai executar esse trecho
 
 r1: false
 r2: true
