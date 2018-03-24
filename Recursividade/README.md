@@ -4,7 +4,12 @@ Essa seção é uma continuação direta de [métodos e funções](https://githu
 
 ## O que é recursividade?
 
-Recursividade é quando definimos algo em função dele mesmo. Em programação fazemos isso quando temos um método ou função que se chama.<br>
+Recursividade é quando definimos algo em função dele mesmo.
+
+Exemplo de recursividade:<br>
+![Compile](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/recursividade.gif)
+
+Em programação fazemos isso quando temos um método ou função que se chama.<br>
 Existem 2 exemplos muito comuns de recursividade: a função fatorial e a sequência de fibonacci.
 
 ### Fatorial
