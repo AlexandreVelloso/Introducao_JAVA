@@ -39,25 +39,25 @@ Voltando ao fatorial, então podemos concluir que:
 
 ```
 se n = 0 então
-    fatorial(n) = 1
+    fatorial(n) = 1 // caso base
 senão
-    fatorial(n) = n * fatorial(n-1)
+    fatorial(n) = n * fatorial(n-1) // passo recursivo
 ```
 
 ```
 OBS: Essa função só funciona para N como um valor inteiro maior ou igual a 0
 ```
 
-Pronto, agora temos um algorítimo de como fazer o fatorial de um número, agora vamos implementar isso em JAVA. O código completo está disponível [aqui]().
+Pronto, agora temos um algorítimo de como fazer o fatorial de um número, agora vamos implementar isso em JAVA. O código completo está disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade/Codigo/Fatorial.java).
 
 ```
 public static int fatorial( int n ){
     int resultado;
 
     if( n == 0 ){
-        resultado = 1;
+        resultado = 1; // caso base
     }else{
-        resultado = n * fatorial( n-1 );
+        resultado = n * fatorial( n-1 ); // passo recursivo
     }
 
     return resultado;

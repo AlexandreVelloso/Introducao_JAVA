@@ -6,9 +6,9 @@ public class Fatorial{
         int resultado;
 
         if( n == 0 ){
-            resultado = 1;
+            resultado = 1; // caso base
         }else{
-            resultado = n * fatorial( n-1 );
+            resultado = n * fatorial( n-1 ); // passo recursivo
         }
 
         return resultado;
