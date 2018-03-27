@@ -16,6 +16,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Métodos e funções](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes)
 * [Recursividade](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Recursividade)
 * [Recursividade 2](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Recursividade2)
+* [Transformar loop em recursividade](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Transformar%20loop%20em%20recursividade)
 * [Tratamento de exceções]
 * [Arquivo com Pacote IO]
 * [Arquivo com JAVA puro]
