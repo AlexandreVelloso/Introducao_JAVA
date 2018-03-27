@@ -133,7 +133,11 @@ Com esse exemplo podemos ver que o bloco **try/catch** pode ser usado para tenta
 
 Se você procurar na internet vai achar centenas de tipos de exceção, mas o meu propósito aqui não é mostrar todas nesse tutorial, somente as que mais acontecem, e elas são as seguintes:
 
-* **NullPointerException**: quando você tenta acessar atributos ou métodos de um objeto nulo
+* **NullPointerException**: Quando você tenta acessar atributos ou métodos de um objeto nulo.
     * Scanner sc = null;
-    *  sc.nextInt();
-* 
+    * sc.nextInt();
+* **NumberFormatException**: Mostrado acima. Quando se tenta converter uma valor inválido.
+    * Double.parseDouble( "invalido" );
+* **ArrayIndexOutOfBoundsException**: Esse erro acontece quando você tenta acessar uma posição inválida em um array, como uma posição maior do que o tamanho, ou uma posição negativa.
+    * int[ ] array = new int[3];
+    * array[4] = 0;
