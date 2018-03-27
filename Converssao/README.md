@@ -8,7 +8,7 @@ OBS: com o java puro podem ocorrer erros se você tentar converter uma letra par
 e com java puro pode se tratar isso, mas essa parte vai ser assunto para outra unidade.
 ```
 
-Se você quiser ver a unidade de tratamento de erros [clique aqui*](CONVERSSAO.md)
+Se você quiser ver a unidade de tratamento de erros [clique aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Tratamento%20de%20excecoes)
 
 ## Usando pacote IO
 Usando o pacote IO as converssões de String para os outros tipos ficam mais simplificadas, e já estão com o tratamento de erro implementadas, a diferença do pacote IO para o java puro é somente esse tipo String para todos outros, o resto estará na secção de JAVA puro.
@@ -133,7 +133,7 @@ novo_num: 3
 ```
 
 ### int para char
-Como já mostrado no tutorial sobre [variáveis] (https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis) eu disse sobre o tipo **char** armazenar valores da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf). Então quando eu converto uma variável **int** para um **char** ele vira uma letra. Mas cuidado, se você tentar converter um número que não esteja dentro do intervalo **[0,255]** o valor armazenado será um valor inválido, o seu programa não vai parar de funcionar por causa dessa falha.
+Como já mostrado no tutorial sobre [variáveis](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis) eu disse sobre o tipo **char** armazenar valores da [tabela ascii](http://www.ricardoarrigoni.com.br/tabela-ascii-completa/). Então quando eu converto uma variável **int** para um **char** ele vira uma letra. Mas cuidado, se você tentar converter um número que não esteja dentro do intervalo **[0,255]** o valor armazenado será um valor inválido, o seu programa não vai parar de funcionar por causa dessa falha.
 
 ```
 int num1 = 97;

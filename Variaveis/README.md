@@ -34,7 +34,7 @@ Existem algumas restrições quanto ao nome que você pode dar às variáveis:
 ### Executar os códigos
 
 Caso você deseja executar os códigos mostrados aqui você pode abrir os arquivos destinados a cada tipo de dado
-que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro_Exemplo.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Inteiro.java), etc.
+que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro_Exemplo.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Variaveis/Codigo/Integer_Exemplo.java), etc.
 
 # Tipos de variáveis
 
@@ -115,7 +115,7 @@ Também existe uma diferença na divisão, pois como esse tipo de dado pode guar
 o valor **3.34394904459**.
 
 ## Char( Caractere )
-Esse tipo de variável armazena valores dentro da [tabela ascii](http://ic.unicamp.br/~everton/aulas/hardware/tabelaASCII.pdf), não se preocupe sobre ela,
+Esse tipo de variável armazena valores dentro da [tabela ascii](http://www.ricardoarrigoni.com.br/tabela-ascii-completa/), não se preocupe sobre ela,
 mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere, como letra, número, caracteres especiais, etc.<br />
 Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [converssão de tipo](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao), pois eles são caracteres.
 

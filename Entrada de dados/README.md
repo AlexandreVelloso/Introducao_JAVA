@@ -38,7 +38,7 @@ double num3 = IO.readdouble( "Digite outro valor real\n");
 ```
 
 ### char
-No *char* é mais difícil de conseguir valores inválidos, pois temos 255 caracteres a nossa escolha na [tabela ascii](http://ic.unicamp.br/%7Eeverton/aulas/hardware/tabelaASCII.pdf), mas se mesmo assim você for animado(a) existem milhares caracteres na codificação [UTF-8](http://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&utf8=dec) como **Σ** que não existe em ascii, nesse caso o valor armazenado no *char* será um valor inválido e será mostrado como **?**, mas cuidado, isso não quer dizer que é o caractere **?** e sim um caractere inválido.<br />
+No *char* é mais difícil de conseguir valores inválidos, pois temos 255 caracteres a nossa escolha na [tabela ascii](http://www.ricardoarrigoni.com.br/tabela-ascii-completa/), mas se mesmo assim você for animado(a) existem milhares caracteres na codificação [UTF-8](http://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&utf8=dec) como **Σ** que não existe em ascii, nesse caso o valor armazenado no *char* será um valor inválido e será mostrado como **?**, mas cuidado, isso não quer dizer que é o caractere **?** e sim um caractere inválido.<br />
 Se você digitar qualquer coisa maior que um caractere, como o seu nome o pacote IO irá pegar somente o 1º caractere.
 
 ```
@@ -88,7 +88,7 @@ não importa se é maiusculo ou minusculo.
 ## Usando JAVA puro
 
 Em java puro vou utilizar a classe Scanner para ler dados do teclado.<br />
-Cuidado que quando o usuário digita um valor inválido em qualquer tipo de dado o programa para de executar na hora e gera uma [Exceção*](https://github.com/AlexandreVelloso/Introducao_JAVA/edit/master/Entrada%20de%20dados/README.md).
+Cuidado que quando o usuário digita um valor inválido em qualquer tipo de dado o programa para de executar na hora e gera uma [Exceção](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Tratamento%20de%20excecoes).
 
 ### int
 Ler valores do teclado usando JAVA é bem simples, lembre se de colocar **import java.util.Scanner** na primeira linha do programa quando se faz a leitura do teclado. Todos os exemplos mostrados aqui estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados/Codigo)
