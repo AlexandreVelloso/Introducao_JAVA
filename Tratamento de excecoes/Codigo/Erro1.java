@@ -4,6 +4,8 @@ public class Erro1{
         
         String str = "banana";
         int num = Integer.parseInt( str );
+
+        System.out.println("Fim do metodo");
     }
 
     public static void main( String [] args ){
