@@ -27,3 +27,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 ## Autor
 
 [Alexandre Velloso Pinheiro Filho](https://github.com/AlexandreVelloso)
+
+## Contribuidores
+
+[Luiz Gustavo Bragança dos Santos](https://github.com/Luizgustavo358)
