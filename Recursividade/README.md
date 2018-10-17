@@ -108,3 +108,61 @@ public static int fibonacci( int n ){
     }
 }
 ```
+
+## Palindromo
+
+Um palindromo e uma palavra que pode ser lida de frente pra tras ou de tras para frente.
+Alguns exemplos de palindromos sao:
+
+- Ana 
+- Otto
+- Arara
+- Kaiak
+- O galo ama o lago
+- Anotaram a data da maratona
+
+Para se saber se uma palavra e um palindromo, fazemos a comparaçao de cada letra da palavra ou frase com o seu extremo oposto,
+por exemplo:
+
+OTTO - Se compara a primeira letra (O) com a ultima letra, que tambem e O, se elas forem iguais, se passa pra segunda letra e 
+para a penultima letra, comparando assim todas as letras dos extremos para dentro ate que se chegue ma metade. 
+O = O, passa para a proxima,
+T = T, se finaliza.
+
+Agora vamos a implementação. Disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade/Codigo/Palindromo.java)
+
+```
+public static boolean ehPalindromo(String str){
+
+        // definir dados
+        boolean result = false; 
+
+        // chama metodo recursivo
+        result = ehPalindromo( str, 0 );
+        return( result );
+    }// end ehPalindromo()
+
+    public static boolean ehPalindromo(String str, int i)
+    {
+        // definir dados
+        boolean result = true;
+        int meio = str.length( )/2;
+        char prim = ' ';
+        char ult  = ' ';
+
+        prim = str.charAt( i );
+        ult  = str.charAt( str.length( ) - 1 - i ); 
+        if( prim != ult )
+        {
+            result = false;
+        }
+        else
+        {       
+            if( i < meio )
+            {
+                result = ehPalindromo( str, i + 1 );
+            }// end if
+        }// end if
+        return( result );
+    }// end ehPalindromo()
+    ```
