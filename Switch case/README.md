@@ -12,7 +12,7 @@ Os dias são numerados de 1 a 7, e o Domingo é o dia 1.
 Todos os códigos estão disponíveis [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Switch%20case/C%C3%B3digo)
 
 ### Pacote IO
-```
+```java
 int diaSemana = IO.readint("Digite um dia da semana\n");
 
 switch( diaSemana ){
@@ -44,7 +44,7 @@ switch( diaSemana ){
 ```
 
 ### JAVA puro
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 System.out.println("Digite um dia da semana");

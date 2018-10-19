@@ -2,7 +2,7 @@
 
 Muitas vezes em nossos programas precisamos fazer um trecho de código repetir várias vezes.<br />
 Imagine que o usuário deseja mostrar a mensagem "Bom dia" na tela 10 vezes, um jeito símples com o que a gente sabe até agora é mostra na tela 10 vezes a mensagem, usando o *System.out.println* ou *IO.Println*.
-```
+```java
 System.out.println("Bom Dia");
 System.out.println("Bom Dia");
 System.out.println("Bom Dia");
@@ -21,7 +21,7 @@ Existem 3 deles *for*, *while*, e *do/while*, nessa seção vou abordar todos os
 ## while
 
 Esse laço é bem simples, ele repete um trecho de código enquando uma condição for verdadeira.
-```
+```java
 while( nao_estou_formado ){
   estude();
 }
@@ -38,7 +38,7 @@ Olhando o laço, enquanto a condição **nao_estou_formado** for verdadeira, o t
 
 Agora um exemplo funcional, mostrar os número inteiros entre 1 e 10 em ordem crescente
 
-```
+```java
 // comeco com o número 1
 int num = 1;
 
@@ -72,7 +72,7 @@ Saída:
 O laço *do/while* é muito parecido com o mostrado *while* acima, mas a diferença desse é que ele executa o código dentro do loop pelo menos 1 vez, e depois ele testa se a condição é verdadeira.<br />
 Aqui eu vou usar o mesmo caso mostrado no while, o caso do estudante que tem que estudar para formar:
 
-```
+```java
 do{
   estude();
 }while( nao_estou_formado );
@@ -92,7 +92,7 @@ Uma leve explicação do laço:
 
  Vamos ver um exemplo abaixo para o mesmo programa de mostrar os números de 1 a 10 em ordem crescente.
 
-```
+```java
 // comeco com o numero 1
 int num = 1;
 
@@ -127,7 +127,7 @@ O laço de repetição *for* tem uma aparência diferente dos 2 anteriores, ele 
 Esse loop não se encaixa ao problema do aluno que deve estudar para formar, pois não sabemos o número de vezes em que ele deve estudar para formar, mas ele é muito bom para mostrar os número de 1 a 10 em ordem crescente.<br />
 Vamos ao exemplo:
 
-```
+```java
 for( int num = 1; num <= 10; num = num + 1 ){
     System.out.println( num );
     // Ou se você usa o pacote IO descomente a linha abaixo
@@ -150,7 +150,7 @@ Saída:
 ```
 
 O laço de repetição *for* tem 4 partes:
-```
+```java
 for( 1; 2; 4 ){
     3
 }

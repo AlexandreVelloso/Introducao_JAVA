@@ -12,7 +12,7 @@ Já uma função ela te retorna algum resultado, como por exemplo uma função c
 
 ## Estrutura de um método
 Vamos começar com um exemplo de método, como o **digaMeuNome(String)**:
-```
+```java
 public static void digaMeuNome( String nome ){
     // Vou fazer esse print em java puro
     System.out.println( "Ola "+nome );
@@ -20,7 +20,7 @@ public static void digaMeuNome( String nome ){
 ```
 
 Todos os métodos tem 6 componentes:
-```
+```java
 public(1) static(2) void(3) falarBomDia(4) ( (5) ){
 
     (6)
@@ -37,7 +37,7 @@ public(1) static(2) void(3) falarBomDia(4) ( (5) ){
 Exemplo de código completo, nele usarei somente JAVA puro. Se você usa o pacote IO verá que não tem muita diferença.<br/>
 Todos os exemplos de métodos e funções estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/edit/master/Metodos%20e%20funcoes/Codigo).
 
-```
+```java
 import java.util.Scanner;
 
 public class Metodo{
@@ -76,7 +76,7 @@ Como podemos ver acima, existem 2 métodos: *digaOla* e *digaMeuNome*. Esses mé
 
 Primeiro vou mostrar uma função:
 
-```
+```java
 public static int somaInteiro( int a, int b ){
     int soma;
 
@@ -90,7 +90,7 @@ public static int somaInteiro( int a, int b ){
 
 Vemos que a estrutura de uma função é levemente diferente de um método, aqui não temos o **void** e sim um *int*, e também uma palavra chamada **return**. Vamos ver o que cada uma dessas estruturas são.
 
-```
+```java
 public static int(1) somaInteiro ( int a, int b ){
     //codigo
 
@@ -106,7 +106,7 @@ Só vou mostrar as partes diferentes aqui, pois o resto é igual ao método.
 Exemplo de código, nele usarei somente JAVA puro. Se você usa o pacote IO verá que não tem muita diferença.<br/>
 Todos os exemplos de métodos e funções estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/edit/master/Metodos%20e%20funcoes/Codigo).
 
-```
+```java
 import java.util.Scanner;
 
 public class Funcao{

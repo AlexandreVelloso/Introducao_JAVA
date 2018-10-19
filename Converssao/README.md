@@ -16,7 +16,7 @@ Usando o pacote IO as converssões de String para os outros tipos ficam mais sim
 ### String para todos os outros
 Para se fazer a converssão de String para int é bem simples, como mostrado a seguir:
 
-```
+```java
 // Note que 123456 e' uma String e nao um numero inteiro pois esta entre ""
 int numero = IO.getint( "123456" );
 
@@ -27,13 +27,13 @@ int numero2 = IO.getint( numero_str );
 
 Como todas as outras converssões são praticamente iguais, vou só mostrá-las a partir de agora
 
-```
+```java
 double pi = IO.getDouble( "3.1415926" );
 ```
 
 A conversão para char irá pegar somente o 1 caractere da String
 
-```
+```java
 char letra = IO.getchar( "Alexandre" );
 ```
 
@@ -42,7 +42,7 @@ char letra = IO.getchar( "Alexandre" );
 ### String para todos os outros
 Para se fazer a converssão de String para int é bem simples, como mostrado a seguir:
 
-```
+```java
 // Note que 123456 e' uma String e nao um numero inteiro pois esta entre ""
 int numero = Integer.parseInt( "123456" );
 
@@ -53,13 +53,13 @@ int numero2 = Integer.parseInt( numero_str );
 
 A conversão para double é muito parecida com a de int
 
-```
+```java
 double pi = Double.parseDouble( "3.1415926" );
 ```
 
 A converssão para char é interessante, por que não existe a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) parseChar então temos outra alternativa:
 
-```
+```java
 // como um char e' somente 1 caractere, eu posso usar esse jeito usando o metodo charAt(),
 // nao se preocupe se voce nao entender o que e' um metodo ainda, isso sera explicado no futuro
 char letra = "Alexandre".charAt(0);
@@ -75,7 +75,7 @@ A converssão para char vai pegar somente o 1 caractere da String e passar ele p
 
 A partir daqui o pacote IO não nos dá mais suporte, então para os 2 casos devemos usar esse tipo de abordagem. A converssão de qualquer um dos tipos de dados para String é igual, vamos aos exemplos.
 
-```
+```java
 // int para String
 String str1 = "" + 123456;
 
@@ -96,7 +96,7 @@ str3: "%"
 
 Nesses casos eu *concateno* uma String vazia com o valor que eu quero, repare que a operação de concatenação é uma soma, então se eu quiser fazer uma soma entre 2 ou mais números e depois concatenar eu devo colocar um **()** para trocar a precedência das operações, isso significa que a soma será feita antes da concatenação, igualmente na matemática que devemos resolver o **()** antes de resolver o que está fora.
 
-```
+```java
 String resultado = "" + ( 1 + 2 + 4 );
 
 /*
@@ -106,7 +106,7 @@ resultado: "7"
 
 ### int para double
 Como o inteiro é um número sem casas decimais, podemos fazer a converssão dele para double facilmente, como mostrado abaixo:
-```
+```java
 int num = 15;
 double novo_num;
 
@@ -120,7 +120,7 @@ novo_num: 15.0
 
 ### double para int
 Essa converssão chamamos de *truncar* o número, ela somente tira as casas decimais do número. Também podemos falar que essa converssão arredonda o número para baixo.
-```
+```java
 double pi = 3.1415;
 int novo_num;
 
@@ -135,7 +135,7 @@ novo_num: 3
 ### int para char
 Como já mostrado no tutorial sobre [variáveis](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Variaveis) eu disse sobre o tipo **char** armazenar valores da [tabela ascii](http://www.ricardoarrigoni.com.br/tabela-ascii-completa/). Então quando eu converto uma variável **int** para um **char** ele vira uma letra. Mas cuidado, se você tentar converter um número que não esteja dentro do intervalo **[0,255]** o valor armazenado será um valor inválido, o seu programa não vai parar de funcionar por causa dessa falha.
 
-```
+```java
 int num1 = 97;
 int num2 = 65;
 
@@ -151,7 +151,7 @@ letra_A: 'A'
 ## char para int
 Converter de char para int é bem parecido com o acima, sabendo que o **char** só guarda valores entre 0 e 255.
 
-```
+```java
 char letra = '&';
 
 int num = (int) letra;

@@ -4,7 +4,7 @@
 Os programas em JAVA devem ter no mínimo esses comandos:
 
 ### classe
-```
+```java
 public class Primeiro{
   ...
 }
@@ -25,7 +25,7 @@ Como executar esse programa:
 * Execute ![Execute](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Imagens/Execute.png)
 
 Se você está usando o pacote IO:
-```
+```java
 import IO.*;
 
 public class Primeiro{
@@ -36,7 +36,7 @@ public class Primeiro{
 ```
 
 Se você está usando JAVA puro, ou seja sem o pacote IO:
-```
+```java
 public class Primeiro{
   public static void main( String [] args ){
     System.out.println("Coloque seu nome aqui");
@@ -50,6 +50,6 @@ O pacote IO é um pacote feito pelo professor [Theldo Cruz Franqueira](http://la
 
 Na 1 linha de codigo eu adiciono esse pacote ao programa, e assim posso usar livrimente esse pacote.
 
-```
+```java
 import IO.*;
 ```
