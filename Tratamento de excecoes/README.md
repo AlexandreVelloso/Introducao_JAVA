@@ -6,7 +6,7 @@ As vezes o seu programa pode gerar um erro de execução, esse erro pode ser por
 
 Execute o código a seguir, disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Tratamento%20de%20excecoes/Codigo/Erro1.java).
 
-```
+```java
 public static void metodo(){
 
     String palavra = "banana";
@@ -48,7 +48,7 @@ Vamos analisar cada linha do erro:
 As exceções são facilmente tratadas usando um comando chamado **try/catch**. Esse comando executa o código dentro dele normalmente, mas se algum comando dentro do bloco causar uma exceção o **catch** pega ela, e não deixa o programa parar de executar.
 
 Exemplo, código disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Tratamento%20de%20excecoes/Codigo/Erro2.java):
-```
+```java
 public static void metodo(){
        
     String str = "banana";
@@ -76,7 +76,7 @@ Diferente do programa anterior, esse mostrou a mensagem **Fim do metodo**, pois 
 
 O comando try/catch tem a seguinte estrutura:
 
-```
+```java
 try{
     (1)
 }catch( (2) ){
@@ -93,7 +93,7 @@ try{
 
 Outro exemplo de try/catch, código disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Tratamento%20de%20excecoes/Codigo/Erro3.java):
 
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 try{

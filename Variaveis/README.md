@@ -7,7 +7,7 @@ Variável é um objeto que armazena um dado, e esse dado é um valor que pode se
 ### Como declarar uma variável
 Antes de se usar qualquer variável é preciso declarar ela, isto é criá-la antes de usar. Para declarar uma variável é fácil, basta colocar o tipo da variável e depois o nome, e no final **;**, como nos exemplos abaixo:
 
-```
+```java
 int variavel1;
 int x,y; // aqui estou declarando mais de uma variável na mesma linha, isto é um comentário
 double a;
@@ -41,7 +41,7 @@ que está nessa pasta, e copiá-los para o seu JGrasp, como [Inteiro_Exemplo.jav
 ## Inteiro
 Esse tipo de variável armazena valores do tipo **inteiro** igual na matemática. As 4 operações básicas funcionam para esse tipo de dado normalmente, e ainda tem uma novidade, o módulo( resto da divisão ). como vou mostrar a seguir:
 
-```
+```java
 int a,b;
 int r1,r2,r3,r4,r5; // essas são as variáveis que vão guardar os resultados das operações
 
@@ -84,7 +84,7 @@ Esse tipo de variável armazena valores do tipo **real** igual na matemática. A
 
 As operações com os número do tipo double são iguais às do tipo inteiro, com a exceção da operação de módulo que não existe com esse tipo de dado.<br />
 
-```
+```java
 double a,b;
 double r1,r2,r3,r4; // essas são as variáveis que vão guardar os resultados das operações
 
@@ -119,7 +119,7 @@ Esse tipo de variável armazena valores dentro da [tabela ascii](http://www.rica
 mas o que você deve saber é que esse tipo de dado armazena somente 1 caractere, como letra, número, caracteres especiais, etc.<br />
 Com esse tipo de variável não é possível fazer nenhuma das operações básicas com esse tipo de dado sem fazer uma [converssão de tipo](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Converssao), pois eles são caracteres.
 
-```
+```java
 // Declarar variáveis
 char c1,c2,c3;
 
@@ -139,7 +139,7 @@ OBS: '' é diferente de ' ', pois no segundo caso é um caractere espaço
 ## String
 Esse tipo de variável armazena valores literais, ou seja uma sequência de caracteres, como nomes, texto, texto com números, e todos esses tipos de combinações. Com esse tipo existe uma operação básica, a concatenação.
 
-```
+```java
 String str1, str2, str3;
 int idade;
 String mensagem;
@@ -177,7 +177,7 @@ Na String o valor pode ser vazio.
 ## Boolean
 Esse tipo de dado armazena somente valores do tipo lógico, **true** ou **false**. Esse tipo de dado não faz as operações aritiméticas, e sim as lógicas, valores do tipo verdadeiro ou falso.
 
-```
+```java
 // Declarar variáveis
 boolean var1, var2;
 boolean r1, r2, r3, r4;

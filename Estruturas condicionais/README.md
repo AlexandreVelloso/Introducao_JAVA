@@ -12,7 +12,7 @@ Observação: como o fluxograma não fala qual tipo de variável deve ser usada,
 ```
 
 ### Pacote IO
-```
+```java
 double a = IO.readdouble("Digite um valor para A\n");
 double b = IO.readdouble("Digite um valor para B\n");
 
@@ -26,7 +26,7 @@ if( b == 0.0 ){
 ```
 
 ### JAVA puro
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 System.out.println("Digite um valor para A");

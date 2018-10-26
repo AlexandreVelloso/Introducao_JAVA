@@ -8,7 +8,7 @@ Agora nessa seção eu irei explicar como o computador faz a recursividade.
 Antes de mostrar efetivamente uma recursividade funcionando, tenho que explicar o que acontece quando o computador chama uma função ou um método.<br>
 Primeiro temos esse exemplo de código, disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade2/Codigo/Exemplo1.java):
 
-```
+```java
 public static void metodo1(){
 
     System.out.println("Entrei no metodo 1");
@@ -87,7 +87,7 @@ E assim terminamos a execução desse programa.
 Tomara que essa explicação da pilha de execução não ficou confuso para você, pois agora vou mostrar como ficam as variáveis do programa quando você chama uma função.<br>
 Vou usar o método fatorial mostrado no exemplo anterior e como ele se comporta recursivamente. Código disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade2/Codigo/Fatorial.java)
 
-```
+```java
 public static int fatorial( int n ){
     int resultado;
 

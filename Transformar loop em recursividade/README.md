@@ -7,14 +7,14 @@ Essa nova unidade não tem valor prático, somente valor didático, pois sabemos
 Como eu mostrei anteriormente [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Loop) ambos for e o while tem 4 partes, usar essas partes para mostrar como é a transição dele para o método. Código disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Transformar%20loop%20em%20recursividade/Codigo/Exemplo.java)<br>
 
 For básico
-```
+```java
 for( int i = 0; i < n; i++ ){
     // operacao
 }
 ```
 
 While básico
-```
+```java
 int i = 0;
 while( i < n ){
     // operacao
@@ -23,7 +23,7 @@ while( i < n ){
 ```
 
 Método recursivo equivalente
-```
+```java
 public static void metodoR( int i, int n ){
     if( i < n ){
         // operacao

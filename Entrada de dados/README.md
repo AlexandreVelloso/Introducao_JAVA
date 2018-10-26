@@ -7,7 +7,7 @@ O pacote IO foi feito para simplificar a vida do estudante, nessa parte de pedir
 
 ### int
 Para ler um valor *int* do teclado usamos a [função](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Metodos%20e%20funcoes) *readint*. Como o int é um número inteiro, se o usuário digitar um valor inválido como um *char*, uma *String* ou um *double* o pacote IO vai colocar o valor como **0**, isso foi escolha do professor Theldo. Todos os exemplos mostrados aqui estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados/Codigo)
-```
+```java
 // Somente ler o valor
 int num1 = IO.readint();
 
@@ -28,7 +28,7 @@ valor inteiro do teclado.
 No valor *double* também vale a condição, se o usuário digitar um valor inválido o pacote IO vai colocar 0.0 na variável. Você pode colocar valores inteiros do teclado, e não se esqueça: valores *double* em java são com **.** e não com **,** <br />
 Valores válidos: 1, 0.0, 3.14, ...
 
-```
+```java
 // Somente le o numero do teclado
 double num1 = IO.readdouble();
 // informa a mensagem e o usuario coloca o numero na mesma linha
@@ -41,7 +41,7 @@ double num3 = IO.readdouble( "Digite outro valor real\n");
 No *char* é mais difícil de conseguir valores inválidos, pois temos 255 caracteres a nossa escolha na [tabela ascii](http://www.ricardoarrigoni.com.br/tabela-ascii-completa/), mas se mesmo assim você for animado(a) existem milhares caracteres na codificação [UTF-8](http://www.utf8-chartable.de/unicode-utf8-table.pl?number=1024&utf8=dec) como **Σ** que não existe em ascii, nesse caso o valor armazenado no *char* será um valor inválido e será mostrado como **?**, mas cuidado, isso não quer dizer que é o caractere **?** e sim um caractere inválido.<br />
 Se você digitar qualquer coisa maior que um caractere, como o seu nome o pacote IO irá pegar somente o 1º caractere.
 
-```
+```java
 // Somente le o numero do teclado
 char char1 = IO.readchar();
 // informa a mensagem e o usuario coloca o numero na mesma linha
@@ -54,7 +54,7 @@ char char3 = IO.readchar( "Digite outro char\n");
 
 O interessante é que a String não tem caracteres inválidos, ela consegue aceitar qualquer valor, até o **Σ** que eu citei acima.
 
-```
+```java
 // Le uma String do teclado, mas sem espaco
 String str1 = IO.readString( "Digite uma String\n" );
 // Le uma String do teclado com espaco
@@ -75,7 +75,7 @@ seria lido como "Bom dia"
 O boolean é o tipo em que o usuário deve digitar exatamente *true* ou *false*, não importa se estão em letras maiúsculas ou minúsculas( True, TrUe, tRUE,... são válidos ).<br />
 Se o usuário digitar qualquer coisa que não seja isso o valor será *false*.
 
-```
+```java
 // lê um valor booleano
 boolean bool1 = IO.readboolean( "Digite um valor booelean true/false\n" );
 
@@ -93,7 +93,7 @@ Cuidado que quando o usuário digita um valor inválido em qualquer tipo de dado
 ### int
 Ler valores do teclado usando JAVA é bem simples, lembre se de colocar **import java.util.Scanner** na primeira linha do programa quando se faz a leitura do teclado. Todos os exemplos mostrados aqui estão [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Entrada%20de%20dados/Codigo)
 
-```
+```java
 // como vou usar essa classe Scanner, tenho que colocar esse import aqui em cima
 import java.util.Scanner;
 
@@ -123,7 +123,7 @@ Para fazer a leitura dos dados usamos a [função](https://github.com/AlexandreV
 ### double
 Valores double do teclado devem ser escritos com *,* ( pelo menos no meu computador ), senão eles causam erro de execução. Podemos colocar valores inteiros e reais aqui dentro desse tipo de dado. Não podemos colocar *char* e nem *String* aqui dentro. Como no exemplo anterior eu copiei toda a classe, aqui só vou colocar a parte de leitura.
 
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 System.out.println("Digite outro valor real");
@@ -134,7 +134,7 @@ double num = sc.nextDouble();
 ### char
 Aqui no valor char podemos colocar qualquer coisa, mas se colocarmos uma *String* inteira, o programa vai pegar somente o 1º caractere.
 
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 System.out.println( "Digite um char" );
@@ -147,7 +147,7 @@ char valor = sc.nextLine().charAt(0);
 ### String
 No *String* podemos ler qualquer entrada do teclado, independente do tamanho.
 
-```
+```java
 Scanner sc = new Scanner( System.in );
 
 System.out.println("Digite uma String");
@@ -159,7 +159,8 @@ String str = sc.nextLine();
 ### boolean
 O boolean aqui deve conter apenas os valores **true** ou **false**, independente de letras maiúsculas ou minúsculas( True, TrUe, tRUE,... são válidos ), caso contrário o programa vai ter uma falha de execução.
 
-```Scanner sc = new Scanner( System.in );
+```java
+Scanner sc = new Scanner( System.in );
 
 System.out.println( "Digite um valor booelean true/false" );
 // le um valor booleano
@@ -171,7 +172,7 @@ boolean bool = sc.nextBoolean();
 Quando se usa o Scanner se você usar a função *next* ( também com as funções *nextInt*,*nextDouble*,*nextBoolean*,... ) para ler uma *String* do teclado, e o usuário colocar uma *String* com espaço, como **Bom dia**, o a variável vai ler somente o **Bom** e o resto da mensagem vai continuar no que chamamos de *Buffer*, e nesse caso a *String* **dia** ainda está lá, e quando se tenta ler outra *String* o programa vai automaticamente recuperar o que está no buffer e colocar o valor **dia** na proxima *String*.<br />
 Vamos a um exemplo:
 
-```
+```java
 System.out.println("Digite um valor String com espaco");
 String str1 = sc.next();
 System.out.println("Digite outro valor String");
@@ -181,7 +182,7 @@ System.out.println( "Valores lidos: "+str1+" "+str2);
 
 Para resolver isso devemos limpar o buffer depois de ler o valor:
 
-```
+```java
 System.out.println("Digite um valor String com espaco");
 String str3 = sc.next();
 // limpa o buffer

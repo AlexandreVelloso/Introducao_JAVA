@@ -31,7 +31,7 @@ OBS: 0! é igual a 1 por definição.
 Podemos observar que o fatorial do número 5 é igual a 5 vezes o fatorial do número 4.<br>
 Assim podemos expressar o fatorial de qualquer número **n** como **n** multiplicado pelo fatorial de **n-1**.
 
-```
+```java
 fatorial(n) = n * fatorial(n-1);
 ```
 
@@ -55,7 +55,7 @@ OBS: Essa função só funciona para N como um valor inteiro maior ou igual a 0
 
 Pronto, agora temos um algorítimo de como fazer o fatorial de um número, agora vamos implementar isso em JAVA. O código completo está disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade/Codigo/Fatorial.java).
 
-```
+```java
 public static int fatorial( int n ){
     int resultado;
 
@@ -95,7 +95,7 @@ senão
 
 Agora vamos a implementação. Disponível [aqui](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Recursividade/Codigo/Fibonacci.java)
 
-```
+```java
 public static int fibonacci( int n ){
     int resultado;
 
