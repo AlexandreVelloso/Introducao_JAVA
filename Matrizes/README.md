@@ -26,8 +26,8 @@ Considere o snippet abaixo como
 
 #### Mostrar Matriz
 
-Para obter os valores de uma matriz, precisamos iterar sobre todos seus elementos, isso é feito com a ajuda de dois ´for´ um dentro do outro.
-O primeiro ´for´ vai iterar sobre as linhas da matriz enquanto o segundo sobre as colunas.
+Para obter os valores de uma matriz, precisamos iterar sobre todos seus elementos, isso é feito com a ajuda de dois `for` um dentro do outro.
+O primeiro `for` vai iterar sobre as linhas da matriz enquanto o segundo sobre as colunas.
 
 ```java
 public static void mostraMatriz(int C[][])
@@ -80,7 +80,7 @@ O exemplo abaixo recebe duas matrizes como exemplo, possui uma variável `soma` 
 
 Para adicionarmos duas ou mais matrizes é preciso que todas elas tenham o mesmo número de linhas e de colunas. A soma dessas matrizes irá resultar em outra matriz que também terá o mesmo número de linhas e de colunas. Os termos deverão ser somados com os seus termos correspondentes.
 
-O exemplo abaixo recebe duas matrizes como exemplo, possui uma matriz ´z´ auxiliar.
+O exemplo abaixo recebe duas matrizes como exemplo, possui uma matriz `z` auxiliar.
 
 
 ```java
