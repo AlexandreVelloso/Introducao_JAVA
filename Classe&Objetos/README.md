@@ -10,7 +10,7 @@ A palavra classe vem da taxonomia da biologia. Todos os seres vivos de uma mesma
 ### Características das classes:
 
 + Possui nome:
-    + Conta, Cachorro, Mercardo;
+    + Conta, Cachorro, Carro;
 + Visibilidade
     + public, private, protected;
 
@@ -23,10 +23,38 @@ class Conta {       // visibiladade + class + nome_classe
     }
 ``` 
 
+# O que são atributos?
+
+Os atributos são as propriedades de um objeto, também são conhecidos como variáveis ou campos. Essas propriedades definem o estado de um objeto, fazendo com que esses valores possam sofrer alterações.
+
+```java
+public class Cachorro{
+     
+    public String nome;     //atributo nome 
+    public int peso;        //atributo peso
+    public String corOlhos; //atributo corOlhos
+    public int quantPatas;  //atributo quantPatas
+}
+
+public class Teste{
+ 
+    public static void main(String[] args) {
+        Cachorro cachorro1 = new Cachorro(); //instanciando objeto cachorro1 do tipo Cachorro
+        cachorro1.nome = "Pluto";            //dando valor ao atributo nome para cachorro1
+        cachorro1.corOlhos = "azuis";        //dando valor ao atributo corolhos para cachorro1
+        cachorro1.peso = 53;                 //dando valor ao atributo peso para cachorro1
+        cachorro1.quantPatas = 4;
+    }
+}
+
+```
+
 ## O que é são métodos?
 
 Dentro da classe, também declararamos o que cada conta faz e como isto é feito - os comportamentos que cada classe tem.
 Queremos dizer como que uma conta pode sacar dinheiro, fazemos essa especificação dentro da própria classe `Conta`. É por isso que essas "funções" são chamadas de métodos. Pois é a maneira de fazer uma operação com um objeto.
+
+Como boas práticas, é indicado sempre usar o nome dos métodos declarados como verbos, para que quando for efetuada alguma manutenção seja de fácil entendimento.
 
 ```java
 class Conta { 
@@ -86,6 +114,29 @@ class ProgramaPrincipal{
 }
 
 ``` 
+
+## O que é são construtores?
+
+O construtor de um objeto é um método especial, pois inicializa seus atributos toda vez que é instanciado.  A identificação de um construtor em uma classe é sempre o mesmo nome da classe.
+
+Toda vez que é digitada a palavra reservada `new`, o objeto solicita para a memória do sistema armazená-lo, onde chama o construtor da classe para inicializar o objeto.
+
+```java
+class Conta	{
+	String	titular;
+	int	numero;
+    double	saldo;
+    
+	//	construtor
+	Conta()	{
+		System.out.println("Construindo	uma	conta.");
+		}
+}
+```
+
+Sendo assim, quando instaciarmos uma nova conta, a mensagem	`construindo uma	conta` aparecerá.
+
+
 
 
 
