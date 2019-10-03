@@ -4,7 +4,7 @@ A Programação Orientada a Objetos (também conhecida como POO) foi criada com 
 
 ## O que é uma classe?
 
-As classes de programação pode ser entendida como são receitas de um objeto, aonde têm características e comportamentos.
+As classes de programação podem ser entendidas como são receitas de um objeto, aonde têm características e comportamentos.
 A palavra classe vem da taxonomia da biologia. Todos os seres vivos de uma mesma classe biológica têm uma série de atributos e comportamentos em comum, mas não são iguais, podem variar nos valores desses atributos e como realizam esses comportamentos.
 
 ### Características das classes:
@@ -15,10 +15,10 @@ A palavra classe vem da taxonomia da biologia. Todos os seres vivos de uma mesma
     + public, private, protected;
 
 ```java
-class Conta {       // visibiladade + class + nome_classe
-    int numero;     //atributo numero
-    String titular; //atributo titular
-    double saldo;   //atributo saldo
+public class Conta {       // visibiladade + class + nome_classe
+    public int numero;     //atributo numero
+    public String titular; //atributo titular
+    public double saldo;   //atributo saldo
     // .. 
     }
 ``` 
@@ -57,10 +57,10 @@ Queremos dizer como que uma conta pode sacar dinheiro, fazemos essa especificaç
 Como boas práticas, é indicado sempre usar o nome dos métodos declarados como verbos, para que quando for efetuada alguma manutenção seja de fácil entendimento.
 
 ```java
-class Conta { 
-    double salario; // atributo salário 
+public class Conta { 
+    public double salario; // atributo salário 
 
-    void sacar(double quantidade) { //método sacar especifica como sacamos numa conta
+    public void sacar(double quantidade) { //método sacar especifica como sacamos numa conta
         double novoSaldo = this.saldo - quantidade; this.saldo = novoSaldo; } 
         }
 ``` 
@@ -71,9 +71,9 @@ A palavra reserveda `void` diz que ao chamar o método `sacar`, este não retorn
 Abaixo temos outro método, dessa vez para depositar.
 
 ```java
-class Conta	{
+public class Conta	{
 
-	void deposita(double	quantidade) { // depositar recebe um double quantidade como parâmetro
+	public void deposita(double	quantidade) { // depositar recebe um double quantidade como parâmetro
 			this.saldo	+=	quantidade;
 	}
 }
@@ -83,19 +83,19 @@ Para acessar atributos de um objeto, utilizamos o `.(ponto)` como vemos abaixo.
 
 ```java
 
-class ProgramaPrincipal{
-    class Conta { 
-        double salario; // atributo salário 
+public class ProgramaPrincipal{
+    public class Conta { 
+        public double salario; // atributo salário 
 
-        void sacar(double quantidade) { //método sacar especifica como sacamos numa conta
+        public void sacar(double quantidade) { //método sacar especifica como sacamos numa conta
             double novoSaldo = this.saldo - quantidade; this.saldo = novoSaldo; } 
         }
 
-        void deposita(double	quantidade) { // depositar recebe um double quantidade como parâmetro
+        public void deposita(double	quantidade) { // depositar recebe um double quantidade como parâmetro
 			this.saldo	+=	quantidade;
 	    }
 
-    class TestaAlgunsMetodos	{
+    public class TestaAlgunsMetodos	{
 		public	static	void	main(String[]	args) {
 								
 		Conta	minhaConta;             //	criando	um objeto minha conta do tipo Conta
@@ -122,10 +122,10 @@ O construtor de um objeto é um método especial, pois inicializa seus atributos
 Toda vez que é digitada a palavra reservada `new`, o objeto solicita para a memória do sistema armazená-lo, onde chama o construtor da classe para inicializar o objeto.
 
 ```java
-class Conta	{
-	String	titular;
-	int	numero;
-    double	saldo;
+public class Conta	{
+	public String	titular;
+	public int	numero;
+    public double	saldo;
     
 	//	construtor
 	Conta()	{
