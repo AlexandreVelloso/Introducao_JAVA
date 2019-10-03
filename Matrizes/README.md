@@ -2,7 +2,7 @@
 
 ### O que é uma matriz?
 
-As matrizes ou chamados também de vetores bidimensionais, são estruturas de dados homogênea, ou seja representam um conjunto de valores do mesmo tipo. São individualizados entre si através de sua posição de linha e coluna dentro desse conjunto.
+As matrizes ou chamados também de vetores bidimensionais, são estruturas de dados homogêneos, ou seja representam um conjunto de valores do mesmo tipo. São individualizados entre si através de sua posição de linha e coluna dentro desse conjunto.
 
 Exemplo de matriz 3x5:<br>
 ![Compile](https://github.com/KakaSena/Introducao_JAVA/blob/master/Imagens/Matriz3x5.png)
