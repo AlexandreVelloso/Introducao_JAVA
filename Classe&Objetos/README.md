@@ -61,8 +61,9 @@ public class Conta {
     public double salario; // atributo salário 
 
     public void sacar(double quantidade) { //método sacar especifica como sacamos numa conta
-        double novoSaldo = this.saldo - quantidade; this.saldo = novoSaldo; } 
-        }
+        double novoSaldo = this.saldo - quantidade; this.saldo = novoSaldo; 
+        } 
+}
 ``` 
 
 A palavra reserveda `void` diz que ao chamar o método `sacar`, este não retorna nenhuma informação para o mesmo que o invocou. Ao sacar algum valor, precisamos informar a `quantidade` que queremos, dentro do método, declaramos dentro de parênteses e isso é chamado de `parâmetro` do método (ou `argumento`). Essa variável é temporária pois, ao final da execução desse método, ela deixa de existir.
@@ -72,7 +73,6 @@ Abaixo temos outro método, dessa vez para depositar.
 
 ```java
 public class Conta	{
-
 	public void deposita(double	quantidade) { // depositar recebe um double quantidade como parâmetro
 			this.saldo	+=	quantidade;
 	}
@@ -82,7 +82,6 @@ public class Conta	{
 Para acessar atributos de um objeto, utilizamos o `.(ponto)` como vemos abaixo.
 
 ```java
-
 public class ProgramaPrincipal{
     public class Conta { 
         public double salario; // atributo salário 
@@ -96,12 +95,10 @@ public class ProgramaPrincipal{
 	    }
 
     public class TestaAlgunsMetodos	{
-		public	static	void	main(String[]	args) {
-								
+		public	static	void	main(String[]	args) {		
 		Conta	minhaConta;             //	criando	um objeto minha conta do tipo Conta
 		minhaConta	=	new	Conta();
         
-    
 		minhaConta.titular	=	"Duke"; // alterando atributo titular
         minhaConta.saldo	=	1000;   // alterando atributo saldo
         
@@ -123,9 +120,9 @@ Toda vez que é digitada a palavra reservada `new`, o objeto solicita para a mem
 
 ```java
 public class Conta	{
-	public String	titular;
-	public int	numero;
-    public double	saldo;
+	public String titular;
+	public int numero;
+    public double saldo;
     
 	//	construtor
 	Conta()	{
@@ -134,4 +131,4 @@ public class Conta	{
 }
 ```
 
-Sendo assim, quando instaciarmos uma nova conta, a mensagem	`construindo uma	conta` aparecerá.
+Sendo assim, quando instaciarmos uma nova conta, a mensagem	`construindo uma conta` aparecerá.
