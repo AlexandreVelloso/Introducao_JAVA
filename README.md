@@ -31,3 +31,5 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 ## Contribuidores
 
 [Luiz Gustavo Bragança dos Santos](https://github.com/Luizgustavo358)
+
+[Ricardo Xavier Sena](https://github.com/KakaSena)
