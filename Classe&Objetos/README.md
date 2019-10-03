@@ -23,7 +23,7 @@ class Conta {       // visibiladade + class + nome_classe
     }
 ``` 
 
-# O que são atributos?
+## O que são atributos?
 
 Os atributos são as propriedades de um objeto, também são conhecidos como variáveis ou campos. Essas propriedades definem o estado de um objeto, fazendo com que esses valores possam sofrer alterações.
 
@@ -135,13 +135,3 @@ class Conta	{
 ```
 
 Sendo assim, quando instaciarmos uma nova conta, a mensagem	`construindo uma	conta` aparecerá.
-
-
-
-
-
-### Executar os códigos
-
-Caso você deseja executar os códigos mostrados aqui você pode abrir os arquivos destinados a cada tipo de dado
-que está nessa pasta, e copiá-los para o seu JGrasp, como [Matriz_Exemplo.java](https://github.com/AlexandreVelloso/Introducao_JAVA/blob/master/Matrizes/Codigo/Matriz_Exemplo.java), etc.
-
