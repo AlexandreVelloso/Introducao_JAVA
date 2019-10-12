@@ -22,7 +22,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Arquivo com JAVA puro]
 * [Arranjo ou *Array*]
 * [Matriz ou *Matrix*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Matrizes)
-* [Classes e Objetos] 
+* [Classes e Objetos] (https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Classe&Objetos)
 
 ## Autor
 
@@ -31,4 +31,5 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 ## Contribuidores
 
 [Luiz Gustavo Bragança dos Santos](https://github.com/Luizgustavo358)
+
 [Ricardo Xavier Sena](https://github.com/KakaSena)
