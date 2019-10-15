@@ -20,7 +20,7 @@ Nesse tutorial irei usar o pacote IO feito pelo professor [Theldo Cruz Franqueir
 * [Tratamento de exceções](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Tratamento%20de%20excecoes)
 * [Arquivo com Pacote IO]
 * [Arquivo com JAVA puro]
-* [Arranjo ou *Array*]
+* [Arranjo ou *Array*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Arranjo)
 * [Matriz ou *Matrix*](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Matrizes)
 * [Classes e Objetos](https://github.com/AlexandreVelloso/Introducao_JAVA/tree/master/Classe&Objetos)
 

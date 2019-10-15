@@ -23,5 +23,7 @@ public class Fibonacci{
         int num = sc.nextInt();
 
         System.out.println("O Fibonacci de "+num+" = "+fibonacci(num) );
+
+        sc.close();
     }
 }
