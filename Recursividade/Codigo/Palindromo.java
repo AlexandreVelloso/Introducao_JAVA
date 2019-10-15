@@ -61,5 +61,6 @@ public class Palindromo
         {
             System.out.println("Palavra " + str + " nao e' palindromo");
         }// end if
+        scan.close();
     }// end main()
 }// end class
